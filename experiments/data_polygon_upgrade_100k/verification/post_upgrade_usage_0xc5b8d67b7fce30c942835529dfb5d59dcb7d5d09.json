@@ -1,0 +1,19 @@
+{
+  "spender": "0xC5b8D67B7fCE30c942835529dFB5D59DCb7D5D09",
+  "first_upgrade_block": 90787696,
+  "scan_to_block": 90887373,
+  "approval_count_for_spender": 2,
+  "owner_count_considered": 1,
+  "token_count_considered": 1,
+  "tokens_considered": [
+    "0xC011a7E12a19f7B1f670d46F03B03f3342E82DFB"
+  ],
+  "post_upgrade_transfer_from_approved_owner_count": 0,
+  "unique_transfer_txs": 0,
+  "unique_transfer_owners": 0,
+  "top_transfer_tokens": [],
+  "top_transfer_owners": [],
+  "direct_top_level_calls_to_spender_count": 0,
+  "direct_top_level_calls_to_spender": [],
+  "sample_transfers": []
+}

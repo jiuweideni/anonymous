@@ -1,0 +1,49 @@
+{
+  "spender": "0xfB411Cc6385Af50A562aFCb441864E9d541CDA67",
+  "trace_source": "debug_traceTransaction.callTracer",
+  "rpc_label": "config",
+  "candidate_tx_count": 4,
+  "traced_tx_count": 4,
+  "failed_tx_count": 0,
+  "transfer_from_match_count": 2,
+  "matched_txs": [
+    {
+      "tx_hash": "0x017ee732a4ceb120908ebb10b3cf127d907a80f7c87a48e8935d1cefa06d2ddf",
+      "match_count": 1,
+      "matches": [
+        {
+          "caller": "0xfB411Cc6385Af50A562aFCb441864E9d541CDA67",
+          "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+          "owner": "0xC867e2Dcda282049265CD4A57eB8f59f94174D17",
+          "recipient": "0xfB411Cc6385Af50A562aFCb441864E9d541CDA67",
+          "amount": 1030000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x61a71",
+          "gas_used": "0x1027a",
+          "error": null
+        }
+      ]
+    },
+    {
+      "tx_hash": "0x1ee392b0debc9d6c0f934fee313a9fd1f8372c298dc38f65fd3c1a14ad90b7ef",
+      "match_count": 1,
+      "matches": [
+        {
+          "caller": "0xfB411Cc6385Af50A562aFCb441864E9d541CDA67",
+          "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+          "owner": "0xC867e2Dcda282049265CD4A57eB8f59f94174D17",
+          "recipient": "0xfB411Cc6385Af50A562aFCb441864E9d541CDA67",
+          "amount": 1460000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x61a71",
+          "gas_used": "0xbc66",
+          "error": null
+        }
+      ]
+    }
+  ],
+  "failed_txs": [],
+  "method_errors": []
+}

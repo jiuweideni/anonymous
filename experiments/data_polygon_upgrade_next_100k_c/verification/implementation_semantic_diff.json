@@ -1,0 +1,989 @@
+{
+  "config": {
+    "chain_id": 137,
+    "from_block": 91012374,
+    "to_block": 91112373,
+    "output_dir": "data_polygon_upgrade_next_100k_c"
+  },
+  "spenders": [
+    {
+      "spender": "0xfB411Cc6385Af50A562aFCb441864E9d541CDA67",
+      "first_upgrade_block": 91052418,
+      "transfer_from_match_count": 2,
+      "previous_implementation": "0x7dc5D32ab579e1246fE91964ee2437da5213cf56",
+      "upgraded_implementation": "0x2F2EfBe73F7C0287337F2F9D0dBa5ABC24414A21",
+      "before": {
+        "address": "0x7dc5D32ab579e1246fE91964ee2437da5213cf56",
+        "code_bytes": 9808,
+        "code_hash": "0x36d7762dc00f7c252326e3ed14a23075fe8ba1dd18f046def8ef356f1e16c480",
+        "push4_selector_count": 28,
+        "unique_push4_selectors": 24,
+        "auth_relevant_selectors": {
+          "0xf2fde38b": {
+            "count": 1,
+            "name": "transferOwnership(address)"
+          },
+          "0x8da5cb5b": {
+            "count": 1,
+            "name": "owner()"
+          },
+          "0x715018a6": {
+            "count": 2,
+            "name": "renounceOwnership()"
+          },
+          "0xa9059cbb": {
+            "count": 1,
+            "name": "transfer(address,uint256)"
+          },
+          "0x23b872dd": {
+            "count": 1,
+            "name": "transferFrom(address,address,uint256)"
+          }
+        },
+        "erc20_selectors": {
+          "0xa9059cbb": {
+            "count": 1,
+            "name": "transfer(address,uint256)"
+          },
+          "0x23b872dd": {
+            "count": 1,
+            "name": "transferFrom(address,address,uint256)"
+          }
+        },
+        "opcode_counts": {
+          "BALANCE": 0,
+          "CALL": 1,
+          "CALLCODE": 0,
+          "CREATE": 0,
+          "CREATE2": 1,
+          "DELEGATECALL": 0,
+          "EXTCODECOPY": 0,
+          "EXTCODEHASH": 0,
+          "EXTCODESIZE": 2,
+          "REVERT": 27,
+          "SELFDESTRUCT": 0,
+          "SLOAD": 115,
+          "SSTORE": 40,
+          "STATICCALL": 0
+        }
+      },
+      "after": {
+        "address": "0x2F2EfBe73F7C0287337F2F9D0dBa5ABC24414A21",
+        "code_bytes": 10220,
+        "code_hash": "0xd504326c21f4fc95fb09fc1654b77ac14dbbb4e14d75cae578745ea897062e98",
+        "push4_selector_count": 29,
+        "unique_push4_selectors": 24,
+        "auth_relevant_selectors": {
+          "0x8da5cb5b": {
+            "count": 2,
+            "name": "owner()"
+          },
+          "0xf2fde38b": {
+            "count": 1,
+            "name": "transferOwnership(address)"
+          },
+          "0x715018a6": {
+            "count": 1,
+            "name": "renounceOwnership()"
+          },
+          "0x23b872dd": {
+            "count": 1,
+            "name": "transferFrom(address,address,uint256)"
+          },
+          "0xa9059cbb": {
+            "count": 1,
+            "name": "transfer(address,uint256)"
+          }
+        },
+        "erc20_selectors": {
+          "0x23b872dd": {
+            "count": 1,
+            "name": "transferFrom(address,address,uint256)"
+          },
+          "0xa9059cbb": {
+            "count": 1,
+            "name": "transfer(address,uint256)"
+          }
+        },
+        "opcode_counts": {
+          "BALANCE": 0,
+          "CALL": 1,
+          "CALLCODE": 0,
+          "CREATE": 0,
+          "CREATE2": 0,
+          "DELEGATECALL": 0,
+          "EXTCODECOPY": 1,
+          "EXTCODEHASH": 0,
+          "EXTCODESIZE": 2,
+          "REVERT": 27,
+          "SELFDESTRUCT": 0,
+          "SLOAD": 117,
+          "SSTORE": 40,
+          "STATICCALL": 0
+        }
+      },
+      "diff": {
+        "code_hash_changed": true,
+        "code_size_delta_bytes": 412,
+        "added_auth_relevant_selectors": [],
+        "removed_auth_relevant_selectors": [],
+        "added_erc20_selectors": [],
+        "removed_erc20_selectors": [],
+        "opcode_delta": {
+          "BALANCE": 0,
+          "CALL": 0,
+          "CALLCODE": 0,
+          "CREATE": 0,
+          "CREATE2": -1,
+          "DELEGATECALL": 0,
+          "EXTCODECOPY": 1,
+          "EXTCODEHASH": 0,
+          "EXTCODESIZE": 0,
+          "REVERT": 0,
+          "SELFDESTRUCT": 0,
+          "SLOAD": 2,
+          "SSTORE": 0,
+          "STATICCALL": 0
+        },
+        "external_call_opcode_delta": {
+          "CALL": 0,
+          "CALLCODE": 0,
+          "DELEGATECALL": 0,
+          "STATICCALL": 0
+        },
+        "risk_signals": [
+          "implementation_bytecode_changed",
+          "post_upgrade_bytecode_contains_transferFrom_selector"
+        ]
+      },
+      "source_lookup": {
+        "0x7dc5D32ab579e1246fE91964ee2437da5213cf56": null,
+        "0x2F2EfBe73F7C0287337F2F9D0dBa5ABC24414A21": null
+      }
+    },
+    {
+      "spender": "0x71e9AF59c3d0282093dD29da957898fFE3D94582",
+      "first_upgrade_block": 91013438,
+      "transfer_from_match_count": 3,
+      "previous_implementation": "0xD6A4a8c812A472Ee9926d1996b8579311CeD657D",
+      "upgraded_implementation": "0xef42cE7A25256E924fe301e1fDE0e9c3a64934fd",
+      "before": {
+        "address": "0xD6A4a8c812A472Ee9926d1996b8579311CeD657D",
+        "code_bytes": 5925,
+        "code_hash": "0x21df8f9e65da18c1f3a251ed03bb27ec10add7d4b7101b14a00237dbef473dac",
+        "push4_selector_count": 67,
+        "unique_push4_selectors": 61,
+        "auth_relevant_selectors": {
+          "0x4f1ef286": {
+            "count": 1,
+            "name": "upgradeToAndCall(address,bytes)"
+          },
+          "0x715018a6": {
+            "count": 1,
+            "name": "renounceOwnership()"
+          },
+          "0x8da5cb5b": {
+            "count": 1,
+            "name": "owner()"
+          },
+          "0xf2fde38b": {
+            "count": 1,
+            "name": "transferOwnership(address)"
+          },
+          "0xa9059cbb": {
+            "count": 1,
+            "name": "transfer(address,uint256)"
+          },
+          "0x23b872dd": {
+            "count": 1,
+            "name": "transferFrom(address,address,uint256)"
+          }
+        },
+        "erc20_selectors": {
+          "0xa9059cbb": {
+            "count": 1,
+            "name": "transfer(address,uint256)"
+          },
+          "0x23b872dd": {
+            "count": 1,
+            "name": "transferFrom(address,address,uint256)"
+          }
+        },
+        "opcode_counts": {
+          "BALANCE": 0,
+          "CALL": 4,
+          "CALLCODE": 0,
+          "CREATE": 1,
+          "CREATE2": 0,
+          "DELEGATECALL": 1,
+          "EXTCODECOPY": 0,
+          "EXTCODEHASH": 0,
+          "EXTCODESIZE": 7,
+          "REVERT": 35,
+          "SELFDESTRUCT": 1,
+          "SLOAD": 45,
+          "SSTORE": 25,
+          "STATICCALL": 4
+        }
+      },
+      "after": {
+        "address": "0xef42cE7A25256E924fe301e1fDE0e9c3a64934fd",
+        "code_bytes": 5950,
+        "code_hash": "0x53802c10b2b78551d514c6b7ac73dc933e323567e7d1f4eee1c246d206e5a8d2",
+        "push4_selector_count": 66,
+        "unique_push4_selectors": 60,
+        "auth_relevant_selectors": {
+          "0x4f1ef286": {
+            "count": 1,
+            "name": "upgradeToAndCall(address,bytes)"
+          },
+          "0x715018a6": {
+            "count": 1,
+            "name": "renounceOwnership()"
+          },
+          "0x8da5cb5b": {
+            "count": 1,
+            "name": "owner()"
+          },
+          "0xf2fde38b": {
+            "count": 1,
+            "name": "transferOwnership(address)"
+          },
+          "0xa9059cbb": {
+            "count": 1,
+            "name": "transfer(address,uint256)"
+          },
+          "0x23b872dd": {
+            "count": 1,
+            "name": "transferFrom(address,address,uint256)"
+          }
+        },
+        "erc20_selectors": {
+          "0xa9059cbb": {
+            "count": 1,
+            "name": "transfer(address,uint256)"
+          },
+          "0x23b872dd": {
+            "count": 1,
+            "name": "transferFrom(address,address,uint256)"
+          }
+        },
+        "opcode_counts": {
+          "BALANCE": 0,
+          "CALL": 4,
+          "CALLCODE": 0,
+          "CREATE": 2,
+          "CREATE2": 0,
+          "DELEGATECALL": 1,
+          "EXTCODECOPY": 0,
+          "EXTCODEHASH": 1,
+          "EXTCODESIZE": 7,
+          "REVERT": 36,
+          "SELFDESTRUCT": 0,
+          "SLOAD": 45,
+          "SSTORE": 25,
+          "STATICCALL": 4
+        }
+      },
+      "diff": {
+        "code_hash_changed": true,
+        "code_size_delta_bytes": 25,
+        "added_auth_relevant_selectors": [],
+        "removed_auth_relevant_selectors": [],
+        "added_erc20_selectors": [],
+        "removed_erc20_selectors": [],
+        "opcode_delta": {
+          "BALANCE": 0,
+          "CALL": 0,
+          "CALLCODE": 0,
+          "CREATE": 1,
+          "CREATE2": 0,
+          "DELEGATECALL": 0,
+          "EXTCODECOPY": 0,
+          "EXTCODEHASH": 1,
+          "EXTCODESIZE": 0,
+          "REVERT": 1,
+          "SELFDESTRUCT": -1,
+          "SLOAD": 0,
+          "SSTORE": 0,
+          "STATICCALL": 0
+        },
+        "external_call_opcode_delta": {
+          "CALL": 0,
+          "CALLCODE": 0,
+          "DELEGATECALL": 0,
+          "STATICCALL": 0
+        },
+        "risk_signals": [
+          "implementation_bytecode_changed",
+          "post_upgrade_bytecode_contains_transferFrom_selector"
+        ]
+      },
+      "source_lookup": {
+        "0xD6A4a8c812A472Ee9926d1996b8579311CeD657D": null,
+        "0xef42cE7A25256E924fe301e1fDE0e9c3a64934fd": null
+      }
+    },
+    {
+      "spender": "0x28a93D0b837C3C1579F77a1218551f7601d0c163",
+      "first_upgrade_block": 91028118,
+      "transfer_from_match_count": 1,
+      "previous_implementation": "0x56B81332F3e7D1FcAfB61C38E4F65a14b2c75e18",
+      "upgraded_implementation": "0x8c9b508C41e1A3C3926e1c91924485af6D7EFc4d",
+      "before": {
+        "address": "0x56B81332F3e7D1FcAfB61C38E4F65a14b2c75e18",
+        "code_bytes": 19339,
+        "code_hash": "0x4febc43c92910d7c0cb7801a4fe894be30593201fc25c243fc3b2458ee52f193",
+        "push4_selector_count": 78,
+        "unique_push4_selectors": 64,
+        "auth_relevant_selectors": {
+          "0x8da5cb5b": {
+            "count": 1,
+            "name": "owner()"
+          },
+          "0x23b872dd": {
+            "count": 2,
+            "name": "transferFrom(address,address,uint256)"
+          },
+          "0xa9059cbb": {
+            "count": 2,
+            "name": "transfer(address,uint256)"
+          }
+        },
+        "erc20_selectors": {
+          "0x23b872dd": {
+            "count": 2,
+            "name": "transferFrom(address,address,uint256)"
+          },
+          "0xa9059cbb": {
+            "count": 2,
+            "name": "transfer(address,uint256)"
+          }
+        },
+        "opcode_counts": {
+          "BALANCE": 0,
+          "CALL": 6,
+          "CALLCODE": 1,
+          "CREATE": 0,
+          "CREATE2": 1,
+          "DELEGATECALL": 0,
+          "EXTCODECOPY": 0,
+          "EXTCODEHASH": 0,
+          "EXTCODESIZE": 0,
+          "REVERT": 49,
+          "SELFDESTRUCT": 0,
+          "SLOAD": 385,
+          "SSTORE": 206,
+          "STATICCALL": 3
+        }
+      },
+      "after": {
+        "address": "0x8c9b508C41e1A3C3926e1c91924485af6D7EFc4d",
+        "code_bytes": 19339,
+        "code_hash": "0xf549a2d4d0988d356320095dca2d0247b03ba0214be34e6408f8956bfc8dfde3",
+        "push4_selector_count": 84,
+        "unique_push4_selectors": 66,
+        "auth_relevant_selectors": {
+          "0x8da5cb5b": {
+            "count": 1,
+            "name": "owner()"
+          },
+          "0x23b872dd": {
+            "count": 2,
+            "name": "transferFrom(address,address,uint256)"
+          },
+          "0xa9059cbb": {
+            "count": 2,
+            "name": "transfer(address,uint256)"
+          }
+        },
+        "erc20_selectors": {
+          "0x23b872dd": {
+            "count": 2,
+            "name": "transferFrom(address,address,uint256)"
+          },
+          "0xa9059cbb": {
+            "count": 2,
+            "name": "transfer(address,uint256)"
+          }
+        },
+        "opcode_counts": {
+          "BALANCE": 0,
+          "CALL": 6,
+          "CALLCODE": 1,
+          "CREATE": 0,
+          "CREATE2": 0,
+          "DELEGATECALL": 0,
+          "EXTCODECOPY": 1,
+          "EXTCODEHASH": 0,
+          "EXTCODESIZE": 0,
+          "REVERT": 50,
+          "SELFDESTRUCT": 1,
+          "SLOAD": 370,
+          "SSTORE": 193,
+          "STATICCALL": 3
+        }
+      },
+      "diff": {
+        "code_hash_changed": true,
+        "code_size_delta_bytes": 0,
+        "added_auth_relevant_selectors": [],
+        "removed_auth_relevant_selectors": [],
+        "added_erc20_selectors": [],
+        "removed_erc20_selectors": [],
+        "opcode_delta": {
+          "BALANCE": 0,
+          "CALL": 0,
+          "CALLCODE": 0,
+          "CREATE": 0,
+          "CREATE2": -1,
+          "DELEGATECALL": 0,
+          "EXTCODECOPY": 1,
+          "EXTCODEHASH": 0,
+          "EXTCODESIZE": 0,
+          "REVERT": 1,
+          "SELFDESTRUCT": 1,
+          "SLOAD": -15,
+          "SSTORE": -13,
+          "STATICCALL": 0
+        },
+        "external_call_opcode_delta": {
+          "CALL": 0,
+          "CALLCODE": 0,
+          "DELEGATECALL": 0,
+          "STATICCALL": 0
+        },
+        "risk_signals": [
+          "implementation_bytecode_changed",
+          "post_upgrade_bytecode_contains_transferFrom_selector"
+        ]
+      },
+      "source_lookup": {
+        "0x56B81332F3e7D1FcAfB61C38E4F65a14b2c75e18": null,
+        "0x8c9b508C41e1A3C3926e1c91924485af6D7EFc4d": null
+      }
+    },
+    {
+      "spender": "0x371F2B938a4E8951DF75EC175425A2fB08f4B849",
+      "first_upgrade_block": 91061816,
+      "transfer_from_match_count": 1,
+      "previous_implementation": "0x23CE18e614f7F89ffF81EC7A7Bd5Ecb26F8c0d22",
+      "upgraded_implementation": "0x23CE18e614f7F89ffF81EC7A7Bd5Ecb26F8c0d22",
+      "before": {
+        "address": "0x23CE18e614f7F89ffF81EC7A7Bd5Ecb26F8c0d22",
+        "code_bytes": 23951,
+        "code_hash": "0x8d8a6d18e2021007db651ad5e6b1a3d26b09a83513c9f829d685b8489c02d108",
+        "push4_selector_count": 124,
+        "unique_push4_selectors": 58,
+        "auth_relevant_selectors": {
+          "0xf2fde38b": {
+            "count": 1,
+            "name": "transferOwnership(address)"
+          },
+          "0x8da5cb5b": {
+            "count": 1,
+            "name": "owner()"
+          },
+          "0x715018a6": {
+            "count": 1,
+            "name": "renounceOwnership()"
+          },
+          "0x4f1ef286": {
+            "count": 1,
+            "name": "upgradeToAndCall(address,bytes)"
+          },
+          "0x70a08231": {
+            "count": 11,
+            "name": "balanceOf(address)"
+          },
+          "0x23b872dd": {
+            "count": 1,
+            "name": "transferFrom(address,address,uint256)"
+          },
+          "0xa9059cbb": {
+            "count": 1,
+            "name": "transfer(address,uint256)"
+          }
+        },
+        "erc20_selectors": {
+          "0x70a08231": {
+            "count": 11,
+            "name": "balanceOf(address)"
+          },
+          "0x23b872dd": {
+            "count": 1,
+            "name": "transferFrom(address,address,uint256)"
+          },
+          "0xa9059cbb": {
+            "count": 1,
+            "name": "transfer(address,uint256)"
+          }
+        },
+        "opcode_counts": {
+          "BALANCE": 0,
+          "CALL": 3,
+          "CALLCODE": 0,
+          "CREATE": 0,
+          "CREATE2": 0,
+          "DELEGATECALL": 1,
+          "EXTCODECOPY": 0,
+          "EXTCODEHASH": 0,
+          "EXTCODESIZE": 6,
+          "REVERT": 132,
+          "SELFDESTRUCT": 0,
+          "SLOAD": 113,
+          "SSTORE": 32,
+          "STATICCALL": 26
+        }
+      },
+      "after": {
+        "address": "0x23CE18e614f7F89ffF81EC7A7Bd5Ecb26F8c0d22",
+        "code_bytes": 23951,
+        "code_hash": "0x8d8a6d18e2021007db651ad5e6b1a3d26b09a83513c9f829d685b8489c02d108",
+        "push4_selector_count": 124,
+        "unique_push4_selectors": 58,
+        "auth_relevant_selectors": {
+          "0xf2fde38b": {
+            "count": 1,
+            "name": "transferOwnership(address)"
+          },
+          "0x8da5cb5b": {
+            "count": 1,
+            "name": "owner()"
+          },
+          "0x715018a6": {
+            "count": 1,
+            "name": "renounceOwnership()"
+          },
+          "0x4f1ef286": {
+            "count": 1,
+            "name": "upgradeToAndCall(address,bytes)"
+          },
+          "0x70a08231": {
+            "count": 11,
+            "name": "balanceOf(address)"
+          },
+          "0x23b872dd": {
+            "count": 1,
+            "name": "transferFrom(address,address,uint256)"
+          },
+          "0xa9059cbb": {
+            "count": 1,
+            "name": "transfer(address,uint256)"
+          }
+        },
+        "erc20_selectors": {
+          "0x70a08231": {
+            "count": 11,
+            "name": "balanceOf(address)"
+          },
+          "0x23b872dd": {
+            "count": 1,
+            "name": "transferFrom(address,address,uint256)"
+          },
+          "0xa9059cbb": {
+            "count": 1,
+            "name": "transfer(address,uint256)"
+          }
+        },
+        "opcode_counts": {
+          "BALANCE": 0,
+          "CALL": 3,
+          "CALLCODE": 0,
+          "CREATE": 0,
+          "CREATE2": 0,
+          "DELEGATECALL": 1,
+          "EXTCODECOPY": 0,
+          "EXTCODEHASH": 0,
+          "EXTCODESIZE": 6,
+          "REVERT": 132,
+          "SELFDESTRUCT": 0,
+          "SLOAD": 113,
+          "SSTORE": 32,
+          "STATICCALL": 26
+        }
+      },
+      "diff": {
+        "code_hash_changed": false,
+        "code_size_delta_bytes": 0,
+        "added_auth_relevant_selectors": [],
+        "removed_auth_relevant_selectors": [],
+        "added_erc20_selectors": [],
+        "removed_erc20_selectors": [],
+        "opcode_delta": {
+          "BALANCE": 0,
+          "CALL": 0,
+          "CALLCODE": 0,
+          "CREATE": 0,
+          "CREATE2": 0,
+          "DELEGATECALL": 0,
+          "EXTCODECOPY": 0,
+          "EXTCODEHASH": 0,
+          "EXTCODESIZE": 0,
+          "REVERT": 0,
+          "SELFDESTRUCT": 0,
+          "SLOAD": 0,
+          "SSTORE": 0,
+          "STATICCALL": 0
+        },
+        "external_call_opcode_delta": {
+          "CALL": 0,
+          "CALLCODE": 0,
+          "DELEGATECALL": 0,
+          "STATICCALL": 0
+        },
+        "risk_signals": [
+          "post_upgrade_bytecode_contains_transferFrom_selector"
+        ]
+      },
+      "source_lookup": {
+        "0x23CE18e614f7F89ffF81EC7A7Bd5Ecb26F8c0d22": null
+      }
+    },
+    {
+      "spender": "0xF8fF7d4faD77d73f6D75139B0b20F9b9aB23D4Ac",
+      "first_upgrade_block": 91040308,
+      "transfer_from_match_count": 24,
+      "previous_implementation": "0xA4a37e186cf6b45dFcC5acc41cd74D9EFfEaf91B",
+      "upgraded_implementation": "0xFdceb5D69dA1C991D0668D674e7baDB18551a591",
+      "before": {
+        "address": "0xA4a37e186cf6b45dFcC5acc41cd74D9EFfEaf91B",
+        "code_bytes": 21425,
+        "code_hash": "0x6d5a84f24fb3aa10a6aa0bad8e884d1de8d70f8d16cf796c903f0e1e6a3697b9",
+        "push4_selector_count": 168,
+        "unique_push4_selectors": 132,
+        "auth_relevant_selectors": {
+          "0x4f1ef286": {
+            "count": 1,
+            "name": "upgradeToAndCall(address,bytes)"
+          },
+          "0x715018a6": {
+            "count": 1,
+            "name": "renounceOwnership()"
+          },
+          "0x8da5cb5b": {
+            "count": 1,
+            "name": "owner()"
+          },
+          "0xf2fde38b": {
+            "count": 1,
+            "name": "transferOwnership(address)"
+          },
+          "0x70a08231": {
+            "count": 2,
+            "name": "balanceOf(address)"
+          },
+          "0x23b872dd": {
+            "count": 1,
+            "name": "transferFrom(address,address,uint256)"
+          },
+          "0xa9059cbb": {
+            "count": 1,
+            "name": "transfer(address,uint256)"
+          }
+        },
+        "erc20_selectors": {
+          "0x70a08231": {
+            "count": 2,
+            "name": "balanceOf(address)"
+          },
+          "0x23b872dd": {
+            "count": 1,
+            "name": "transferFrom(address,address,uint256)"
+          },
+          "0xa9059cbb": {
+            "count": 1,
+            "name": "transfer(address,uint256)"
+          }
+        },
+        "opcode_counts": {
+          "BALANCE": 2,
+          "CALL": 10,
+          "CALLCODE": 2,
+          "CREATE": 1,
+          "CREATE2": 0,
+          "DELEGATECALL": 1,
+          "EXTCODECOPY": 0,
+          "EXTCODEHASH": 1,
+          "EXTCODESIZE": 14,
+          "REVERT": 52,
+          "SELFDESTRUCT": 0,
+          "SLOAD": 259,
+          "SSTORE": 96,
+          "STATICCALL": 10
+        }
+      },
+      "after": {
+        "address": "0xFdceb5D69dA1C991D0668D674e7baDB18551a591",
+        "code_bytes": 22192,
+        "code_hash": "0x53ce1ab0684552408cd12d7a66fe1eb7bc2b8233e519a3413e24a1a09935950d",
+        "push4_selector_count": 173,
+        "unique_push4_selectors": 133,
+        "auth_relevant_selectors": {
+          "0x4f1ef286": {
+            "count": 1,
+            "name": "upgradeToAndCall(address,bytes)"
+          },
+          "0x715018a6": {
+            "count": 1,
+            "name": "renounceOwnership()"
+          },
+          "0x8da5cb5b": {
+            "count": 1,
+            "name": "owner()"
+          },
+          "0xf2fde38b": {
+            "count": 1,
+            "name": "transferOwnership(address)"
+          },
+          "0x70a08231": {
+            "count": 2,
+            "name": "balanceOf(address)"
+          },
+          "0x23b872dd": {
+            "count": 1,
+            "name": "transferFrom(address,address,uint256)"
+          },
+          "0xa9059cbb": {
+            "count": 1,
+            "name": "transfer(address,uint256)"
+          }
+        },
+        "erc20_selectors": {
+          "0x70a08231": {
+            "count": 2,
+            "name": "balanceOf(address)"
+          },
+          "0x23b872dd": {
+            "count": 1,
+            "name": "transferFrom(address,address,uint256)"
+          },
+          "0xa9059cbb": {
+            "count": 1,
+            "name": "transfer(address,uint256)"
+          }
+        },
+        "opcode_counts": {
+          "BALANCE": 2,
+          "CALL": 10,
+          "CALLCODE": 1,
+          "CREATE": 1,
+          "CREATE2": 0,
+          "DELEGATECALL": 1,
+          "EXTCODECOPY": 0,
+          "EXTCODEHASH": 1,
+          "EXTCODESIZE": 14,
+          "REVERT": 54,
+          "SELFDESTRUCT": 0,
+          "SLOAD": 266,
+          "SSTORE": 98,
+          "STATICCALL": 10
+        }
+      },
+      "diff": {
+        "code_hash_changed": true,
+        "code_size_delta_bytes": 767,
+        "added_auth_relevant_selectors": [],
+        "removed_auth_relevant_selectors": [],
+        "added_erc20_selectors": [],
+        "removed_erc20_selectors": [],
+        "opcode_delta": {
+          "BALANCE": 0,
+          "CALL": 0,
+          "CALLCODE": -1,
+          "CREATE": 0,
+          "CREATE2": 0,
+          "DELEGATECALL": 0,
+          "EXTCODECOPY": 0,
+          "EXTCODEHASH": 0,
+          "EXTCODESIZE": 0,
+          "REVERT": 2,
+          "SELFDESTRUCT": 0,
+          "SLOAD": 7,
+          "SSTORE": 2,
+          "STATICCALL": 0
+        },
+        "external_call_opcode_delta": {
+          "CALL": 0,
+          "CALLCODE": -1,
+          "DELEGATECALL": 0,
+          "STATICCALL": 0
+        },
+        "risk_signals": [
+          "implementation_bytecode_changed",
+          "post_upgrade_bytecode_contains_transferFrom_selector",
+          "storage_write_count_increased"
+        ]
+      },
+      "source_lookup": {
+        "0xA4a37e186cf6b45dFcC5acc41cd74D9EFfEaf91B": null,
+        "0xFdceb5D69dA1C991D0668D674e7baDB18551a591": null
+      }
+    },
+    {
+      "spender": "0xEc2b3AE043109C0293d28A7b8D2EbAc548eCC759",
+      "first_upgrade_block": 91074241,
+      "transfer_from_match_count": 3,
+      "previous_implementation": "0xaD079A492F26C271bDb7a028D7Aa86B0984aeAcA",
+      "upgraded_implementation": "0x190474dE3c1CDd17532a89dEF47C55fEa84aA580",
+      "before": {
+        "address": "0xaD079A492F26C271bDb7a028D7Aa86B0984aeAcA",
+        "code_bytes": 4802,
+        "code_hash": "0x34777d2ba53a4d3446aeb2b91d9be227f6495e96148146e43d4c85d108b485cb",
+        "push4_selector_count": 30,
+        "unique_push4_selectors": 20,
+        "auth_relevant_selectors": {
+          "0xf2fde38b": {
+            "count": 1,
+            "name": "transferOwnership(address)"
+          },
+          "0x8da5cb5b": {
+            "count": 1,
+            "name": "owner()"
+          },
+          "0x2e1a7d4d": {
+            "count": 1,
+            "name": "withdraw(uint256)"
+          },
+          "0x3659cfe6": {
+            "count": 1,
+            "name": "upgradeTo(address)"
+          },
+          "0xa9059cbb": {
+            "count": 6,
+            "name": "transfer(address,uint256)"
+          },
+          "0x23b872dd": {
+            "count": 2,
+            "name": "transferFrom(address,address,uint256)"
+          }
+        },
+        "erc20_selectors": {
+          "0xa9059cbb": {
+            "count": 6,
+            "name": "transfer(address,uint256)"
+          },
+          "0x23b872dd": {
+            "count": 2,
+            "name": "transferFrom(address,address,uint256)"
+          }
+        },
+        "opcode_counts": {
+          "BALANCE": 0,
+          "CALL": 4,
+          "CALLCODE": 0,
+          "CREATE": 0,
+          "CREATE2": 0,
+          "DELEGATECALL": 0,
+          "EXTCODECOPY": 0,
+          "EXTCODEHASH": 0,
+          "EXTCODESIZE": 0,
+          "REVERT": 21,
+          "SELFDESTRUCT": 0,
+          "SLOAD": 44,
+          "SSTORE": 19,
+          "STATICCALL": 1
+        }
+      },
+      "after": {
+        "address": "0x190474dE3c1CDd17532a89dEF47C55fEa84aA580",
+        "code_bytes": 7842,
+        "code_hash": "0xe4577f4f9ce89dcc59f8b75d53963c044d03df6f3909d385ddbcb5df87cff646",
+        "push4_selector_count": 49,
+        "unique_push4_selectors": 32,
+        "auth_relevant_selectors": {
+          "0xf2fde38b": {
+            "count": 1,
+            "name": "transferOwnership(address)"
+          },
+          "0x8da5cb5b": {
+            "count": 2,
+            "name": "owner()"
+          },
+          "0x3659cfe6": {
+            "count": 2,
+            "name": "upgradeTo(address)"
+          },
+          "0x2e1a7d4d": {
+            "count": 1,
+            "name": "withdraw(uint256)"
+          },
+          "0xa9059cbb": {
+            "count": 8,
+            "name": "transfer(address,uint256)"
+          },
+          "0x23b872dd": {
+            "count": 2,
+            "name": "transferFrom(address,address,uint256)"
+          }
+        },
+        "erc20_selectors": {
+          "0xa9059cbb": {
+            "count": 8,
+            "name": "transfer(address,uint256)"
+          },
+          "0x23b872dd": {
+            "count": 2,
+            "name": "transferFrom(address,address,uint256)"
+          }
+        },
+        "opcode_counts": {
+          "BALANCE": 0,
+          "CALL": 5,
+          "CALLCODE": 0,
+          "CREATE": 0,
+          "CREATE2": 0,
+          "DELEGATECALL": 0,
+          "EXTCODECOPY": 0,
+          "EXTCODEHASH": 0,
+          "EXTCODESIZE": 1,
+          "REVERT": 48,
+          "SELFDESTRUCT": 0,
+          "SLOAD": 71,
+          "SSTORE": 26,
+          "STATICCALL": 0
+        }
+      },
+      "diff": {
+        "code_hash_changed": true,
+        "code_size_delta_bytes": 3040,
+        "added_auth_relevant_selectors": [],
+        "removed_auth_relevant_selectors": [],
+        "added_erc20_selectors": [],
+        "removed_erc20_selectors": [],
+        "opcode_delta": {
+          "BALANCE": 0,
+          "CALL": 1,
+          "CALLCODE": 0,
+          "CREATE": 0,
+          "CREATE2": 0,
+          "DELEGATECALL": 0,
+          "EXTCODECOPY": 0,
+          "EXTCODEHASH": 0,
+          "EXTCODESIZE": 1,
+          "REVERT": 27,
+          "SELFDESTRUCT": 0,
+          "SLOAD": 27,
+          "SSTORE": 7,
+          "STATICCALL": -1
+        },
+        "external_call_opcode_delta": {
+          "CALL": 1,
+          "CALLCODE": 0,
+          "DELEGATECALL": 0,
+          "STATICCALL": -1
+        },
+        "risk_signals": [
+          "implementation_bytecode_changed",
+          "post_upgrade_bytecode_contains_transferFrom_selector",
+          "external_CALL_count_increased",
+          "storage_write_count_increased"
+        ]
+      },
+      "source_lookup": {
+        "0xaD079A492F26C271bDb7a028D7Aa86B0984aeAcA": null,
+        "0x190474dE3c1CDd17532a89dEF47C55fEa84aA580": null
+      }
+    }
+  ]
+}

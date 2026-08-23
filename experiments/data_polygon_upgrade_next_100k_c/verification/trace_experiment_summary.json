@@ -1,0 +1,285 @@
+{
+  "config": {
+    "chain_id": 137,
+    "from_block": 91012374,
+    "to_block": 91112373,
+    "output_dir": "data_polygon_upgrade_next_100k_c"
+  },
+  "backscan_state": {
+    "status": "complete",
+    "proxy_index": 933
+  },
+  "spender_count": 8,
+  "approval_count": 103,
+  "trace_positive_spender_count": 6,
+  "global_transfer_from_match_count": 34,
+  "global_matched_tx_count": 34,
+  "token_metadata": {
+    "0x36CA9B0BAf0aC2a0ee2ffcdf2e99aA7e556670BF": {
+      "address": "0x36CA9B0BAf0aC2a0ee2ffcdf2e99aA7e556670BF",
+      "symbol": "mMANA",
+      "decimals": 18
+    },
+    "0x7C8cBA63741D92e4029Ef6775729F29F4Bc31691": {
+      "address": "0x7C8cBA63741D92e4029Ef6775729F29F4Bc31691",
+      "symbol": "CC",
+      "decimals": 18
+    },
+    "0x8B2EbB407b4ccc5Dd0B19Be2508C915f198B3DCf": {
+      "address": "0x8B2EbB407b4ccc5Dd0B19Be2508C915f198B3DCf",
+      "symbol": "STK",
+      "decimals": 18
+    },
+    "0x93DEE3C2B8EB81E0500b1CdC2C6d6D71fd548e3E": {
+      "address": "0x93DEE3C2B8EB81E0500b1CdC2C6d6D71fd548e3E",
+      "symbol": "ADAPICA",
+      "decimals": 6
+    },
+    "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": {
+      "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "symbol": "USDT0",
+      "decimals": 6
+    }
+  },
+  "raw_global_amount_by_token": {
+    "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": 18490000,
+    "0x8B2EbB407b4ccc5Dd0B19Be2508C915f198B3DCf": 3000000000000000,
+    "0x93DEE3C2B8EB81E0500b1CdC2C6d6D71fd548e3E": 100000000,
+    "0x36CA9B0BAf0aC2a0ee2ffcdf2e99aA7e556670BF": 1228358417007633154065,
+    "0x7C8cBA63741D92e4029Ef6775729F29F4Bc31691": 300000000000000000000
+  },
+  "spenders": [
+    {
+      "spender": "0xfB411Cc6385Af50A562aFCb441864E9d541CDA67",
+      "approval_count": 42,
+      "unique_approval_owners": 23,
+      "unique_approval_tokens": 2,
+      "first_upgrade_block": 91052418,
+      "post_upgrade_transfer_events": 4,
+      "post_upgrade_unique_transfer_txs": 4,
+      "direct_top_level_calls_to_spender": 0,
+      "traced_tx_count": 4,
+      "failed_tx_count": 0,
+      "transfer_from_match_count": 2,
+      "matched_tx_count": 2,
+      "matched_owner_count": 1,
+      "matched_recipient_count": 1,
+      "raw_amount_by_token": {
+        "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": 2490000
+      },
+      "implementation_changed_at_upgrade": true,
+      "latest_matches_upgrade": true,
+      "previous_implementation": "0x7dc5D32ab579e1246fE91964ee2437da5213cf56",
+      "implementation_at_upgrade_block": "0x2F2EfBe73F7C0287337F2F9D0dBa5ABC24414A21",
+      "latest_implementation": "0x2F2EfBe73F7C0287337F2F9D0dBa5ABC24414A21",
+      "previous_implementation_code_hash": "0x36d7762dc00f7c252326e3ed14a23075fe8ba1dd18f046def8ef356f1e16c480",
+      "implementation_at_upgrade_code_hash": "0xd504326c21f4fc95fb09fc1654b77ac14dbbb4e14d75cae578745ea897062e98",
+      "latest_implementation_code_hash": "0xd504326c21f4fc95fb09fc1654b77ac14dbbb4e14d75cae578745ea897062e98",
+      "normalized_amount_by_token": {
+        "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": "2.49"
+      }
+    },
+    {
+      "spender": "0x71e9AF59c3d0282093dD29da957898fFE3D94582",
+      "approval_count": 32,
+      "unique_approval_owners": 2,
+      "unique_approval_tokens": 1,
+      "first_upgrade_block": 91013438,
+      "post_upgrade_transfer_events": 3,
+      "post_upgrade_unique_transfer_txs": 3,
+      "direct_top_level_calls_to_spender": 0,
+      "traced_tx_count": 3,
+      "failed_tx_count": 0,
+      "transfer_from_match_count": 3,
+      "matched_tx_count": 3,
+      "matched_owner_count": 1,
+      "matched_recipient_count": 1,
+      "raw_amount_by_token": {
+        "0x8B2EbB407b4ccc5Dd0B19Be2508C915f198B3DCf": 3000000000000000
+      },
+      "implementation_changed_at_upgrade": true,
+      "latest_matches_upgrade": true,
+      "previous_implementation": "0xD6A4a8c812A472Ee9926d1996b8579311CeD657D",
+      "implementation_at_upgrade_block": "0xef42cE7A25256E924fe301e1fDE0e9c3a64934fd",
+      "latest_implementation": "0xef42cE7A25256E924fe301e1fDE0e9c3a64934fd",
+      "previous_implementation_code_hash": "0x21df8f9e65da18c1f3a251ed03bb27ec10add7d4b7101b14a00237dbef473dac",
+      "implementation_at_upgrade_code_hash": "0x53802c10b2b78551d514c6b7ac73dc933e323567e7d1f4eee1c246d206e5a8d2",
+      "latest_implementation_code_hash": "0x53802c10b2b78551d514c6b7ac73dc933e323567e7d1f4eee1c246d206e5a8d2",
+      "normalized_amount_by_token": {
+        "0x8B2EbB407b4ccc5Dd0B19Be2508C915f198B3DCf": "0.003"
+      }
+    },
+    {
+      "spender": "0x28a93D0b837C3C1579F77a1218551f7601d0c163",
+      "approval_count": 16,
+      "unique_approval_owners": 1,
+      "unique_approval_tokens": 3,
+      "first_upgrade_block": 91028118,
+      "post_upgrade_transfer_events": 2,
+      "post_upgrade_unique_transfer_txs": 2,
+      "direct_top_level_calls_to_spender": 1,
+      "traced_tx_count": 2,
+      "failed_tx_count": 0,
+      "transfer_from_match_count": 1,
+      "matched_tx_count": 1,
+      "matched_owner_count": 1,
+      "matched_recipient_count": 1,
+      "raw_amount_by_token": {
+        "0x93DEE3C2B8EB81E0500b1CdC2C6d6D71fd548e3E": 100000000
+      },
+      "implementation_changed_at_upgrade": true,
+      "latest_matches_upgrade": true,
+      "previous_implementation": "0x56B81332F3e7D1FcAfB61C38E4F65a14b2c75e18",
+      "implementation_at_upgrade_block": "0x8c9b508C41e1A3C3926e1c91924485af6D7EFc4d",
+      "latest_implementation": "0x8c9b508C41e1A3C3926e1c91924485af6D7EFc4d",
+      "previous_implementation_code_hash": "0x4febc43c92910d7c0cb7801a4fe894be30593201fc25c243fc3b2458ee52f193",
+      "implementation_at_upgrade_code_hash": "0xf549a2d4d0988d356320095dca2d0247b03ba0214be34e6408f8956bfc8dfde3",
+      "latest_implementation_code_hash": "0xf549a2d4d0988d356320095dca2d0247b03ba0214be34e6408f8956bfc8dfde3",
+      "normalized_amount_by_token": {
+        "0x93DEE3C2B8EB81E0500b1CdC2C6d6D71fd548e3E": "100.0"
+      }
+    },
+    {
+      "spender": "0x371F2B938a4E8951DF75EC175425A2fB08f4B849",
+      "approval_count": 6,
+      "unique_approval_owners": 2,
+      "unique_approval_tokens": 1,
+      "first_upgrade_block": 91061816,
+      "post_upgrade_transfer_events": 3,
+      "post_upgrade_unique_transfer_txs": 2,
+      "direct_top_level_calls_to_spender": 0,
+      "traced_tx_count": 2,
+      "failed_tx_count": 0,
+      "transfer_from_match_count": 1,
+      "matched_tx_count": 1,
+      "matched_owner_count": 1,
+      "matched_recipient_count": 1,
+      "raw_amount_by_token": {
+        "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": 16000000
+      },
+      "implementation_changed_at_upgrade": false,
+      "latest_matches_upgrade": false,
+      "previous_implementation": "0x23CE18e614f7F89ffF81EC7A7Bd5Ecb26F8c0d22",
+      "implementation_at_upgrade_block": "0x23CE18e614f7F89ffF81EC7A7Bd5Ecb26F8c0d22",
+      "latest_implementation": "0x9d0680065bfC369eBCb4CfF24A3b726A0F051E3F",
+      "previous_implementation_code_hash": "0x8d8a6d18e2021007db651ad5e6b1a3d26b09a83513c9f829d685b8489c02d108",
+      "implementation_at_upgrade_code_hash": "0x8d8a6d18e2021007db651ad5e6b1a3d26b09a83513c9f829d685b8489c02d108",
+      "latest_implementation_code_hash": "0xc51ad2f815781745553aeb11e8e4d9ad6b6212622dbd0c14a42b2043acd7a21a",
+      "normalized_amount_by_token": {
+        "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": "16.0"
+      }
+    },
+    {
+      "spender": "0xF8fF7d4faD77d73f6D75139B0b20F9b9aB23D4Ac",
+      "approval_count": 3,
+      "unique_approval_owners": 3,
+      "unique_approval_tokens": 1,
+      "first_upgrade_block": 91040308,
+      "post_upgrade_transfer_events": 24,
+      "post_upgrade_unique_transfer_txs": 24,
+      "direct_top_level_calls_to_spender": 24,
+      "traced_tx_count": 24,
+      "failed_tx_count": 0,
+      "transfer_from_match_count": 24,
+      "matched_tx_count": 24,
+      "matched_owner_count": 1,
+      "matched_recipient_count": 1,
+      "raw_amount_by_token": {
+        "0x36CA9B0BAf0aC2a0ee2ffcdf2e99aA7e556670BF": 1228358417007633154065
+      },
+      "implementation_changed_at_upgrade": true,
+      "latest_matches_upgrade": false,
+      "previous_implementation": "0xA4a37e186cf6b45dFcC5acc41cd74D9EFfEaf91B",
+      "implementation_at_upgrade_block": "0xFdceb5D69dA1C991D0668D674e7baDB18551a591",
+      "latest_implementation": "0x0610C9Da3348d9f7baFc9fAedAa7Eba62F4Bb439",
+      "previous_implementation_code_hash": "0x6d5a84f24fb3aa10a6aa0bad8e884d1de8d70f8d16cf796c903f0e1e6a3697b9",
+      "implementation_at_upgrade_code_hash": "0x53ce1ab0684552408cd12d7a66fe1eb7bc2b8233e519a3413e24a1a09935950d",
+      "latest_implementation_code_hash": "0x95ad7c57ef1ef2a42d0863ec2a5e1383f859ccd40a4baddca06738698853a26b",
+      "normalized_amount_by_token": {
+        "0x36CA9B0BAf0aC2a0ee2ffcdf2e99aA7e556670BF": "1228.358417007633"
+      }
+    },
+    {
+      "spender": "0xEc2b3AE043109C0293d28A7b8D2EbAc548eCC759",
+      "approval_count": 2,
+      "unique_approval_owners": 1,
+      "unique_approval_tokens": 1,
+      "first_upgrade_block": 91074241,
+      "post_upgrade_transfer_events": 3,
+      "post_upgrade_unique_transfer_txs": 3,
+      "direct_top_level_calls_to_spender": 3,
+      "traced_tx_count": 3,
+      "failed_tx_count": 0,
+      "transfer_from_match_count": 3,
+      "matched_tx_count": 3,
+      "matched_owner_count": 1,
+      "matched_recipient_count": 1,
+      "raw_amount_by_token": {
+        "0x7C8cBA63741D92e4029Ef6775729F29F4Bc31691": 300000000000000000000
+      },
+      "implementation_changed_at_upgrade": true,
+      "latest_matches_upgrade": true,
+      "previous_implementation": "0xaD079A492F26C271bDb7a028D7Aa86B0984aeAcA",
+      "implementation_at_upgrade_block": "0x190474dE3c1CDd17532a89dEF47C55fEa84aA580",
+      "latest_implementation": "0x190474dE3c1CDd17532a89dEF47C55fEa84aA580",
+      "previous_implementation_code_hash": "0x34777d2ba53a4d3446aeb2b91d9be227f6495e96148146e43d4c85d108b485cb",
+      "implementation_at_upgrade_code_hash": "0xe4577f4f9ce89dcc59f8b75d53963c044d03df6f3909d385ddbcb5df87cff646",
+      "latest_implementation_code_hash": "0xe4577f4f9ce89dcc59f8b75d53963c044d03df6f3909d385ddbcb5df87cff646",
+      "normalized_amount_by_token": {
+        "0x7C8cBA63741D92e4029Ef6775729F29F4Bc31691": "300.0"
+      }
+    },
+    {
+      "spender": "0x1a82d7EC18D0b7f14fcA66CF348AF89293E2597E",
+      "approval_count": 1,
+      "unique_approval_owners": 1,
+      "unique_approval_tokens": 1,
+      "first_upgrade_block": 91069071,
+      "post_upgrade_transfer_events": 0,
+      "post_upgrade_unique_transfer_txs": 0,
+      "direct_top_level_calls_to_spender": 0,
+      "traced_tx_count": 0,
+      "failed_tx_count": 0,
+      "transfer_from_match_count": 0,
+      "matched_tx_count": 0,
+      "matched_owner_count": 0,
+      "matched_recipient_count": 0,
+      "raw_amount_by_token": {},
+      "implementation_changed_at_upgrade": true,
+      "latest_matches_upgrade": true,
+      "previous_implementation": "0xD71FAADC1eC45b08bda93187b649eDeeD3C22E94",
+      "implementation_at_upgrade_block": "0x281Af77C213061826Ef3e0d2002Ea22b62Da1329",
+      "latest_implementation": "0x281Af77C213061826Ef3e0d2002Ea22b62Da1329",
+      "previous_implementation_code_hash": "0xfe612ddec8720b6dc557cad6105cda31789d3d1feb881629d58e8e31f19cf5b9",
+      "implementation_at_upgrade_code_hash": "0x4c92c747a79616d081e612bb179d0b9377a1f6759d1e21adb5a6611bf9c3362c",
+      "latest_implementation_code_hash": "0x4c92c747a79616d081e612bb179d0b9377a1f6759d1e21adb5a6611bf9c3362c",
+      "normalized_amount_by_token": {}
+    },
+    {
+      "spender": "0xECF933ccDf7ebc6a0658c77E070cFe51ebe5328A",
+      "approval_count": 1,
+      "unique_approval_owners": 1,
+      "unique_approval_tokens": 1,
+      "first_upgrade_block": 91100589,
+      "post_upgrade_transfer_events": 0,
+      "post_upgrade_unique_transfer_txs": 0,
+      "direct_top_level_calls_to_spender": 0,
+      "traced_tx_count": 0,
+      "failed_tx_count": 0,
+      "transfer_from_match_count": 0,
+      "matched_tx_count": 0,
+      "matched_owner_count": 0,
+      "matched_recipient_count": 0,
+      "raw_amount_by_token": {},
+      "implementation_changed_at_upgrade": true,
+      "latest_matches_upgrade": true,
+      "previous_implementation": "0x42DA00bEFB56696cEa4958d3602b8f1C8b881eaF",
+      "implementation_at_upgrade_block": "0x9e41cc14F4000c1c83e634770a5E5B7E0523021b",
+      "latest_implementation": "0x9e41cc14F4000c1c83e634770a5E5B7E0523021b",
+      "previous_implementation_code_hash": "0x0a1203037c706f9b80edee7df2c4de82c230020e9066881e3d31e5131c179ffe",
+      "implementation_at_upgrade_code_hash": "0x8c8a55dffc2f2b18af2fb91422401fd8f207f2acad431ee89730f96a96a1dcc8",
+      "latest_implementation_code_hash": "0x8c8a55dffc2f2b18af2fb91422401fd8f207f2acad431ee89730f96a96a1dcc8",
+      "normalized_amount_by_token": {}
+    }
+  ]
+}

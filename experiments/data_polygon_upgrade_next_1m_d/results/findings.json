@@ -1,0 +1,199 @@
+{
+  "event_count": 855333,
+  "finding_count": 19,
+  "finding_types": {
+    "paymaster_concentration": 19
+  },
+  "findings": [
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0x2cc0c7981D846b9F2a16276556f6e8cb52BfB633",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 82085,
+        "unique_smart_accounts": 4927
+      }
+    },
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0xD4b53C2BA502a91159685a7951CA44aD1DFa6fa1",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 27030,
+        "unique_smart_accounts": 1296
+      }
+    },
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0x00e13d60ac6d8DBC9786f77ef9F6696e8E2a075F",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 27032,
+        "unique_smart_accounts": 1295
+      }
+    },
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0x6666666666667849c56f2850848cE1C4da65c68b",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 33139,
+        "unique_smart_accounts": 1835
+      }
+    },
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0x84Ba896235059Fe27727EaA2695a9f99220D9A7E",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 597421,
+        "unique_smart_accounts": 3
+      }
+    },
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0x7ceA357B5AC0639F89F9e378a1f03Aa5005C0a25",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 16820,
+        "unique_smart_accounts": 2883
+      }
+    },
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0x1107056553878474d7206e8a9A48780D215eeC9c",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 4431,
+        "unique_smart_accounts": 970
+      }
+    },
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0x4Fd9098af9ddcB41DA48A1d78F91F1398965addc",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 7176,
+        "unique_smart_accounts": 2155
+      }
+    },
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0x777777777777AeC03fd955926DbF81597e66834C",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 9619,
+        "unique_smart_accounts": 2007
+      }
+    },
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0x2BD45D293F1E3b790F2923fB36782170B559D84C",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 154,
+        "unique_smart_accounts": 1
+      }
+    },
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0x6442f4729Ee8c890D310EF92845d43184A12ee6a",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 726,
+        "unique_smart_accounts": 133
+      }
+    },
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0x3f222Df6aB18C1E10d0Ec136503c3B0dfd929048",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 463,
+        "unique_smart_accounts": 2
+      }
+    },
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0x8b1f6cb5d062aa2Ce8d581942bbb960420d875BA",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 541,
+        "unique_smart_accounts": 74
+      }
+    },
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0x57759664687fAE069bF4FC40C7466940DD9c7F76",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 102,
+        "unique_smart_accounts": 17
+      }
+    },
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0x36F4Aa64673568782461bF03C75462f8ef0A1b76",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 193,
+        "unique_smart_accounts": 2
+      }
+    },
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0x67aC303faB3A9507Ac48fD5B5EE176c4E39aE98C",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 396,
+        "unique_smart_accounts": 179
+      }
+    },
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0x5fa66dFe8a3983E55071e8C4631Ab43b5f33a4aB",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 118,
+        "unique_smart_accounts": 6
+      }
+    },
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0xB01d59961E629e05c4d7112D2C94C431de5805ef",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 106,
+        "unique_smart_accounts": 18
+      }
+    },
+    {
+      "type": "paymaster_concentration",
+      "severity": "medium",
+      "subject": "0x592Ee9EbB840fE157B15140375deEDcf021E88E4",
+      "reason": "A paymaster sponsors many UserOperations in the analysis window.",
+      "evidence": {
+        "user_operation_count": 105,
+        "unique_smart_accounts": 3
+      }
+    }
+  ]
+}

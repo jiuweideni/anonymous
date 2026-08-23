@@ -1,0 +1,15 @@
+{
+  "status": "complete",
+  "summary_scope": "last_resumed_collection_segment_only",
+  "not_final_experiment_summary": true,
+  "final_experiment_summary": "verification/trace_experiment_summary.json",
+  "note": "This file records the final resumed collection segment. Use verification/trace_experiment_summary.json for the complete 369,894-block experiment statistics.",
+  "from_block": 91112374,
+  "to_block": 91482267,
+  "run_from_block": 91482174,
+  "entrypoint_logs": 117,
+  "approval_logs": 0,
+  "permit2_approval_logs": 0,
+  "upgrade_logs": 1,
+  "completed_ranges": 763
+}

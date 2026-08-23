@@ -1,0 +1,35 @@
+{
+  "rpc_url": "https://YOUR_POLYGON_RPC_ENDPOINT",
+  "chain_id": 137,
+  "from_block": 90887374,
+  "to_block": 90912373,
+  "chunk_size": 500,
+  "output_dir": "..\\experiments\\data_polygon_upgrade_next_25k",
+  "resume_collection": true,
+  "collect_all_upgrades": true,
+  "entrypoints": [
+    {
+      "name": "EntryPoint_v0_6",
+      "address": "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
+    },
+    {
+      "name": "EntryPoint_v0_7",
+      "address": "0x0000000071727de22e5e9d8baf0edac6f37da032"
+    }
+  ],
+  "permit2_addresses": [],
+  "tracked_tokens": [],
+  "risk_thresholds": {
+    "large_approval_amount": "1000000000000000000000000",
+    "paymaster_userop_min_count": 100
+  },
+  "backscan": {
+    "history_blocks": 200000,
+    "chunk_size": 5000,
+    "max_requests_per_run": 800,
+    "request_delay_seconds": 0,
+    "resume": true,
+    "max_proxies": 0,
+    "all_tokens": true
+  }
+}

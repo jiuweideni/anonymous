@@ -1,0 +1,61 @@
+{
+  "spender": "0x28a93D0b837C3C1579F77a1218551f7601d0c163",
+  "first_upgrade_block": 91028118,
+  "scan_to_block": 91112373,
+  "approval_count_for_spender": 16,
+  "owner_count_considered": 1,
+  "token_count_considered": 3,
+  "tokens_considered": [
+    "0x93DEE3C2B8EB81E0500b1CdC2C6d6D71fd548e3E",
+    "0x5169dcFd07a6919c101d365449827e16459fDF22",
+    "0x46ddD531A3333E2b17632e9a690f76682Fc655B2"
+  ],
+  "post_upgrade_transfer_from_approved_owner_count": 2,
+  "unique_transfer_txs": 2,
+  "unique_transfer_owners": 1,
+  "top_transfer_tokens": [
+    [
+      "0x93DEE3C2B8EB81E0500b1CdC2C6d6D71fd548e3E",
+      2
+    ]
+  ],
+  "top_transfer_owners": [
+    [
+      "0x6137d3e622920543Cf36923496Cb9738E959D3dC",
+      2
+    ]
+  ],
+  "direct_top_level_calls_to_spender_count": 1,
+  "direct_top_level_calls_to_spender": [
+    {
+      "block_number": 91033165,
+      "tx_hash": "0x8930b759cadadb51cf8930a747d83188dfa225c19c37202438fb89bc8ff86bc2",
+      "log_index": 878,
+      "token": "0x93DEE3C2B8EB81E0500b1CdC2C6d6D71fd548e3E",
+      "from": "0x6137d3e622920543Cf36923496Cb9738E959D3dC",
+      "to": "0x28a93D0b837C3C1579F77a1218551f7601d0c163",
+      "value": 100000000,
+      "transaction_to": "0x28a93D0b837C3C1579F77a1218551f7601d0c163"
+    }
+  ],
+  "sample_transfers": [
+    {
+      "block_number": 91029038,
+      "tx_hash": "0x1a65477a7cc9d0d37165e8211feddeef8b84b6368c86a07d2a382997606f0572",
+      "log_index": 1013,
+      "token": "0x93DEE3C2B8EB81E0500b1CdC2C6d6D71fd548e3E",
+      "from": "0x6137d3e622920543Cf36923496Cb9738E959D3dC",
+      "to": "0x2673b6460Ac3Ccb8FcB71a3273FC46b88087cE08",
+      "value": 91207514
+    },
+    {
+      "block_number": 91033165,
+      "tx_hash": "0x8930b759cadadb51cf8930a747d83188dfa225c19c37202438fb89bc8ff86bc2",
+      "log_index": 878,
+      "token": "0x93DEE3C2B8EB81E0500b1CdC2C6d6D71fd548e3E",
+      "from": "0x6137d3e622920543Cf36923496Cb9738E959D3dC",
+      "to": "0x28a93D0b837C3C1579F77a1218551f7601d0c163",
+      "value": 100000000
+    }
+  ]
+}

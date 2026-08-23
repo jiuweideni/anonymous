@@ -1,0 +1,467 @@
+{
+  "config": {
+    "chain_id": 137,
+    "from_block": 90787373,
+    "to_block": 90887373,
+    "output_dir": "data_polygon_upgrade_100k"
+  },
+  "approval_exposure": {
+    "approval_events": 24288,
+    "nonzero_approval_events": 23378,
+    "nonzero_approval_event_percent": 96.2533,
+    "zero_approval_events": 910,
+    "zero_approval_event_percent": 3.7467,
+    "unlimited_approval_events": 1011,
+    "unlimited_approval_event_percent": 4.1625,
+    "unique_token_owner_spender_states": 7818,
+    "latest_nonzero_states": 7039,
+    "latest_nonzero_state_percent": 90.0358
+  },
+  "approval_to_upgrade_age_blocks": {
+    "count": 24288,
+    "min": 28,
+    "median": 98066.5,
+    "p90": 186232.5,
+    "p99": 197744.52000000002,
+    "max": 199770,
+    "per_spender": [
+      {
+        "spender": "0xeab9d2507f4439006c316c9f2fda56b176f97268",
+        "count": 22696,
+        "median": 98959.0,
+        "p90": 186684.5
+      },
+      {
+        "spender": "0x8ca97f41d2c81af050656e8ad0cf543820a24504",
+        "count": 1230,
+        "median": 83490.5,
+        "p90": 178054.90000000002
+      },
+      {
+        "spender": "0xb2a1d9fe94681713c6c1cdc7c9e3f9f743ada3c9",
+        "count": 259,
+        "median": 97393.0,
+        "p90": 184107.40000000002
+      },
+      {
+        "spender": "0xb68af784a1de48e6f674652e29e52ad995102811",
+        "count": 36,
+        "median": 29069.0,
+        "p90": 195548.0
+      },
+      {
+        "spender": "0x1e6c9af6257bdfa7f6b3d65126ecfb923007c522",
+        "count": 23,
+        "median": 98463.0,
+        "p90": 104788.4
+      },
+      {
+        "spender": "0x9199a04d6a0f3b6278c10675163460c26dea1c21",
+        "count": 14,
+        "median": 56239.0,
+        "p90": 67938.0
+      },
+      {
+        "spender": "0x2d91b9eb797bf8ffc2861d4faeace3b2ab06af61",
+        "count": 9,
+        "median": 67920.0,
+        "p90": 67920.8
+      },
+      {
+        "spender": "0xc517c54c1368d8da6c861148bc0fe319b695c7aa",
+        "count": 8,
+        "median": 96870.5,
+        "p90": 102886.0
+      },
+      {
+        "spender": "0x93f805777f07dfc7b76d5e9065482c53fa20f4fd",
+        "count": 8,
+        "median": 44457.0,
+        "p90": 44474.7
+      },
+      {
+        "spender": "0x9b081323d11a2a61f43701a4007a4a98357c57a1",
+        "count": 3,
+        "median": 127938.0,
+        "p90": 172312.40000000002
+      },
+      {
+        "spender": "0xc5b8d67b7fce30c942835529dfb5d59dcb7d5d09",
+        "count": 2,
+        "median": 144386.5,
+        "p90": 144458.1
+      }
+    ]
+  },
+  "concentration": {
+    "top1_spender_share_percent": 93.4453,
+    "top3_spender_share_percent": 99.5759,
+    "top_spenders": [
+      {
+        "address": "0xeab9d2507f4439006c316c9f2fda56b176f97268",
+        "count": 22696,
+        "share_percent": 93.4453
+      },
+      {
+        "address": "0x8ca97f41d2c81af050656e8ad0cf543820a24504",
+        "count": 1230,
+        "share_percent": 5.0642
+      },
+      {
+        "address": "0xb2a1d9fe94681713c6c1cdc7c9e3f9f743ada3c9",
+        "count": 259,
+        "share_percent": 1.0664
+      },
+      {
+        "address": "0xb68af784a1de48e6f674652e29e52ad995102811",
+        "count": 36,
+        "share_percent": 0.1482
+      },
+      {
+        "address": "0x1e6c9af6257bdfa7f6b3d65126ecfb923007c522",
+        "count": 23,
+        "share_percent": 0.0947
+      },
+      {
+        "address": "0x9199a04d6a0f3b6278c10675163460c26dea1c21",
+        "count": 14,
+        "share_percent": 0.0576
+      },
+      {
+        "address": "0x2d91b9eb797bf8ffc2861d4faeace3b2ab06af61",
+        "count": 9,
+        "share_percent": 0.0371
+      },
+      {
+        "address": "0xc517c54c1368d8da6c861148bc0fe319b695c7aa",
+        "count": 8,
+        "share_percent": 0.0329
+      },
+      {
+        "address": "0x93f805777f07dfc7b76d5e9065482c53fa20f4fd",
+        "count": 8,
+        "share_percent": 0.0329
+      },
+      {
+        "address": "0x9b081323d11a2a61f43701a4007a4a98357c57a1",
+        "count": 3,
+        "share_percent": 0.0124
+      }
+    ],
+    "top_owners": [
+      {
+        "address": "0xb04631fd3504b28747f7e0959c761bc877807aa0",
+        "count": 33,
+        "share_percent": 0.1359
+      },
+      {
+        "address": "0x93a542ec721f9023027d0e579d5b90ddadeb524b",
+        "count": 19,
+        "share_percent": 0.0782
+      },
+      {
+        "address": "0x05f96d8b1079125829e676dd7862bb34be0e6462",
+        "count": 18,
+        "share_percent": 0.0741
+      },
+      {
+        "address": "0x75fa5f8f909e37c14e85f5823c84bd65e90042df",
+        "count": 18,
+        "share_percent": 0.0741
+      },
+      {
+        "address": "0x461312c8a8eba6c26ba55b2f042586641a89360f",
+        "count": 18,
+        "share_percent": 0.0741
+      },
+      {
+        "address": "0x41561c0b9d8fd16be2bc19ae68aaa94f82402681",
+        "count": 17,
+        "share_percent": 0.07
+      },
+      {
+        "address": "0xeb549f73af9b752c11434975007fa43c1626a8ea",
+        "count": 17,
+        "share_percent": 0.07
+      },
+      {
+        "address": "0x183eafab4c6861a16f12230c581ed60d4b08585f",
+        "count": 17,
+        "share_percent": 0.07
+      },
+      {
+        "address": "0xf3391ead4b5514de903571486b66e6332d470f7e",
+        "count": 16,
+        "share_percent": 0.0659
+      },
+      {
+        "address": "0x986bc99e69c45965b8dcea80abeffa3232305b9c",
+        "count": 16,
+        "share_percent": 0.0659
+      }
+    ],
+    "top_tokens": [
+      {
+        "address": "0xc2132d05d31c914a87c6611c10748aeb04b58e8f",
+        "count": 22726,
+        "share_percent": 93.5688
+      },
+      {
+        "address": "0xeb51d9a39ad5eef215dc0bf39a8821ff804a0f01",
+        "count": 951,
+        "share_percent": 3.9155
+      },
+      {
+        "address": "0x8f3cf7ad23cd3cadbd9735aff958023239c6a063",
+        "count": 303,
+        "share_percent": 1.2475
+      },
+      {
+        "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+        "count": 260,
+        "share_percent": 1.0705
+      },
+      {
+        "address": "0x386c4247d0e85e622c8ac420cdcfa6f5482fb4ad",
+        "count": 31,
+        "share_percent": 0.1276
+      },
+      {
+        "address": "0xd9d12f43918363cea1c0b62d16f1f81b8eae91e0",
+        "count": 12,
+        "share_percent": 0.0494
+      },
+      {
+        "address": "0x882df4b0fb50a229c3b4124eb18c759911485bfb",
+        "count": 3,
+        "share_percent": 0.0124
+      },
+      {
+        "address": "0xc011a7e12a19f7b1f670d46f03b03f3342e82dfb",
+        "count": 2,
+        "share_percent": 0.0082
+      }
+    ]
+  },
+  "validation_funnel": {
+    "candidate_spenders": 11,
+    "implementation_change_verified_spenders": 9,
+    "post_upgrade_transfer_activity_spenders": 7,
+    "trace_positive_spenders": 6,
+    "trace_positive_candidate_rate_percent": 54.5455,
+    "traced_transactions": 374,
+    "trace_confirmed_transfer_from_calls": 173,
+    "trace_confirmed_transactions": 158,
+    "trace_confirmed_tx_rate_among_traced_percent": 42.246
+  },
+  "trace_positive_spenders": [
+    {
+      "spender": "0xb2A1D9fE94681713C6C1cDc7c9E3F9F743ada3c9",
+      "approval_count": 259,
+      "unique_approval_owners": 259,
+      "unique_approval_tokens": 1,
+      "first_upgrade_block": 90793214,
+      "post_upgrade_transfer_events": 108,
+      "post_upgrade_unique_transfer_txs": 108,
+      "direct_top_level_calls_to_spender": 78,
+      "traced_tx_count": 108,
+      "failed_tx_count": 0,
+      "transfer_from_match_count": 78,
+      "matched_tx_count": 78,
+      "matched_owner_count": 50,
+      "matched_recipient_count": 1,
+      "raw_amount_by_token": {
+        "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359": 26573990000
+      },
+      "implementation_changed_at_upgrade": true,
+      "latest_matches_upgrade": false,
+      "previous_implementation": "0x00095942880E27543cdD1b8537094fb14Ff0aff2",
+      "implementation_at_upgrade_block": "0x5066C59c487804118C6e651c0A4Ef912804da1B1",
+      "latest_implementation": "0xbCfd503b2eB5Ec786BBCc540D972A9f4a2Eeec9D",
+      "previous_implementation_code_hash": "0x1da506d87727d050d0e8953ed7e4a68e90798961953369f74580b49da1dff2f9",
+      "implementation_at_upgrade_code_hash": "0x5ee8008b4171bf55f09cda10328318c7d484e0a8830e1a2af8fe4357d1735985",
+      "latest_implementation_code_hash": "0x9e74682ac190ea5bbb419d8765fa21ae927745de5ea04298e06fdb48668b6b49",
+      "normalized_amount_by_token": {
+        "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359": "26573.99"
+      }
+    },
+    {
+      "spender": "0xEab9d2507f4439006C316C9F2fDa56b176F97268",
+      "approval_count": 22696,
+      "unique_approval_owners": 6523,
+      "unique_approval_tokens": 1,
+      "first_upgrade_block": 90811332,
+      "post_upgrade_transfer_events": 99,
+      "post_upgrade_unique_transfer_txs": 99,
+      "direct_top_level_calls_to_spender": 70,
+      "traced_tx_count": 99,
+      "failed_tx_count": 0,
+      "transfer_from_match_count": 70,
+      "matched_tx_count": 70,
+      "matched_owner_count": 20,
+      "matched_recipient_count": 2,
+      "raw_amount_by_token": {
+        "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": 2801442084
+      },
+      "implementation_changed_at_upgrade": true,
+      "latest_matches_upgrade": true,
+      "previous_implementation": "0xe657546B4F6ad278a900C7Ff83e5f37aA0e21505",
+      "implementation_at_upgrade_block": "0x01ef560c628a2C54C4E1653862d0f2265c1391d6",
+      "latest_implementation": "0x01ef560c628a2C54C4E1653862d0f2265c1391d6",
+      "previous_implementation_code_hash": "0x613d246a99572d6f69546ebe780a7531f238d4d5b4b656e7c255b54f27c1315a",
+      "implementation_at_upgrade_code_hash": "0xcf2c04e559ee7296de9459c5db35a2230aaf893336977f7460b33cc6f76dd1b0",
+      "latest_implementation_code_hash": "0xcf2c04e559ee7296de9459c5db35a2230aaf893336977f7460b33cc6f76dd1b0",
+      "normalized_amount_by_token": {
+        "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": "2801.442084"
+      }
+    },
+    {
+      "spender": "0x93F805777f07dfC7b76d5e9065482C53fa20f4fd",
+      "approval_count": 8,
+      "unique_approval_owners": 2,
+      "unique_approval_tokens": 1,
+      "first_upgrade_block": 90844907,
+      "post_upgrade_transfer_events": 24,
+      "post_upgrade_unique_transfer_txs": 4,
+      "direct_top_level_calls_to_spender": 12,
+      "traced_tx_count": 4,
+      "failed_tx_count": 0,
+      "transfer_from_match_count": 12,
+      "matched_tx_count": 2,
+      "matched_owner_count": 1,
+      "matched_recipient_count": 6,
+      "raw_amount_by_token": {
+        "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": 232000000
+      },
+      "implementation_changed_at_upgrade": true,
+      "latest_matches_upgrade": true,
+      "previous_implementation": "0xE35238A57b0a1EdCC7CA6b2678F6b89C83e8b547",
+      "implementation_at_upgrade_block": "0xadA0a9E4D3FfC57B3fCa9825e403699DC23183f3",
+      "latest_implementation": "0xadA0a9E4D3FfC57B3fCa9825e403699DC23183f3",
+      "previous_implementation_code_hash": "0xfacbfa0b3652c61c4a5eb15609ae5a9de9c55c3b1301fa9da97ff90998bc2a89",
+      "implementation_at_upgrade_code_hash": "0x251dd5ecdb8f167d4793da422f1454ead10a0710a2cd554ff7522a28aaa9b219",
+      "latest_implementation_code_hash": "0x251dd5ecdb8f167d4793da422f1454ead10a0710a2cd554ff7522a28aaa9b219",
+      "normalized_amount_by_token": {
+        "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": "232.0"
+      }
+    },
+    {
+      "spender": "0x2d91B9EB797bF8FFc2861D4FaeAcE3b2ab06aF61",
+      "approval_count": 9,
+      "unique_approval_owners": 2,
+      "unique_approval_tokens": 2,
+      "first_upgrade_block": 90844902,
+      "post_upgrade_transfer_events": 24,
+      "post_upgrade_unique_transfer_txs": 4,
+      "direct_top_level_calls_to_spender": 6,
+      "traced_tx_count": 4,
+      "failed_tx_count": 0,
+      "transfer_from_match_count": 6,
+      "matched_tx_count": 1,
+      "matched_owner_count": 1,
+      "matched_recipient_count": 6,
+      "raw_amount_by_token": {
+        "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": 229000000
+      },
+      "implementation_changed_at_upgrade": true,
+      "latest_matches_upgrade": true,
+      "previous_implementation": "0xE35238A57b0a1EdCC7CA6b2678F6b89C83e8b547",
+      "implementation_at_upgrade_block": "0xadA0a9E4D3FfC57B3fCa9825e403699DC23183f3",
+      "latest_implementation": "0xadA0a9E4D3FfC57B3fCa9825e403699DC23183f3",
+      "previous_implementation_code_hash": "0xfacbfa0b3652c61c4a5eb15609ae5a9de9c55c3b1301fa9da97ff90998bc2a89",
+      "implementation_at_upgrade_code_hash": "0x251dd5ecdb8f167d4793da422f1454ead10a0710a2cd554ff7522a28aaa9b219",
+      "latest_implementation_code_hash": "0x251dd5ecdb8f167d4793da422f1454ead10a0710a2cd554ff7522a28aaa9b219",
+      "normalized_amount_by_token": {
+        "0xc2132D05D31c914a87C6611C10748AEb04B58e8F": "229.0"
+      }
+    },
+    {
+      "spender": "0x1E6C9aF6257Bdfa7F6b3d65126eCfb923007C522",
+      "approval_count": 23,
+      "unique_approval_owners": 12,
+      "unique_approval_tokens": 1,
+      "first_upgrade_block": 90792184,
+      "post_upgrade_transfer_events": 20,
+      "post_upgrade_unique_transfer_txs": 20,
+      "direct_top_level_calls_to_spender": 4,
+      "traced_tx_count": 20,
+      "failed_tx_count": 0,
+      "transfer_from_match_count": 4,
+      "matched_tx_count": 4,
+      "matched_owner_count": 1,
+      "matched_recipient_count": 1,
+      "raw_amount_by_token": {
+        "0x386C4247d0e85e622C8Ac420cdCfa6F5482Fb4Ad": 105000000
+      },
+      "implementation_changed_at_upgrade": true,
+      "latest_matches_upgrade": true,
+      "previous_implementation": "0xb6963EA2126262F95d1fb514E6F87d1686eeB87C",
+      "implementation_at_upgrade_block": "0xaEC46855De5178442A1b973714b075A828C1a275",
+      "latest_implementation": "0xaEC46855De5178442A1b973714b075A828C1a275",
+      "previous_implementation_code_hash": "0x0e74a4e292f7364927df4d8ab06136bffc561df3d75079c978548e5a6fe88035",
+      "implementation_at_upgrade_code_hash": "0xb63b0bab5a59d0450a6b611a9d257d26a733b9361ffe770691a493165597a574",
+      "latest_implementation_code_hash": "0xb63b0bab5a59d0450a6b611a9d257d26a733b9361ffe770691a493165597a574",
+      "normalized_amount_by_token": {
+        "0x386C4247d0e85e622C8Ac420cdCfa6F5482Fb4Ad": "105.0"
+      }
+    },
+    {
+      "spender": "0xC517c54c1368d8dA6c861148bC0fe319B695C7Aa",
+      "approval_count": 8,
+      "unique_approval_owners": 1,
+      "unique_approval_tokens": 1,
+      "first_upgrade_block": 90792240,
+      "post_upgrade_transfer_events": 6,
+      "post_upgrade_unique_transfer_txs": 3,
+      "direct_top_level_calls_to_spender": 0,
+      "traced_tx_count": 3,
+      "failed_tx_count": 0,
+      "transfer_from_match_count": 3,
+      "matched_tx_count": 3,
+      "matched_owner_count": 1,
+      "matched_recipient_count": 1,
+      "raw_amount_by_token": {
+        "0x386C4247d0e85e622C8Ac420cdCfa6F5482Fb4Ad": 950600
+      },
+      "implementation_changed_at_upgrade": true,
+      "latest_matches_upgrade": true,
+      "previous_implementation": "0x9DF1A64099931aeE31230e3F08d8F4BDa2E5eC22",
+      "implementation_at_upgrade_block": "0xA96BA14BA40370202e53f6EC34Da09Fe0A1a8fEC",
+      "latest_implementation": "0xA96BA14BA40370202e53f6EC34Da09Fe0A1a8fEC",
+      "previous_implementation_code_hash": "0x61c1d5cbc3fb5221b7111ef774ab536cc0df8494ec2e574a247fbb667e01e1e5",
+      "implementation_at_upgrade_code_hash": "0xd8909d887dd7a5322a92dde1971f78815b1b83a29791e0aae76664f98c7da02e",
+      "latest_implementation_code_hash": "0xd8909d887dd7a5322a92dde1971f78815b1b83a29791e0aae76664f98c7da02e",
+      "normalized_amount_by_token": {
+        "0x386C4247d0e85e622C8Ac420cdCfa6F5482Fb4Ad": "0.9506"
+      }
+    }
+  ],
+  "trace_group_comparison": [
+    {
+      "group": "trace-positive",
+      "spender_count": 6,
+      "approval_events": 23003,
+      "latest_states": 6800,
+      "latest_nonzero_states": 6770,
+      "latest_nonzero_state_percent": 99.5588,
+      "median_approval_age_blocks": 98802.0,
+      "post_upgrade_unique_transfer_txs": 238,
+      "traced_tx_count": 238,
+      "matched_tx_count": 158,
+      "transfer_from_match_count": 173
+    },
+    {
+      "group": "trace-negative",
+      "spender_count": 5,
+      "approval_events": 1285,
+      "latest_states": 1018,
+      "latest_nonzero_states": 269,
+      "latest_nonzero_state_percent": 26.4244,
+      "median_approval_age_blocks": 82835.0,
+      "post_upgrade_unique_transfer_txs": 136,
+      "traced_tx_count": 136,
+      "matched_tx_count": 0,
+      "transfer_from_match_count": 0
+    }
+  ]
+}

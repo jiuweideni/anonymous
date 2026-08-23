@@ -1,0 +1,66 @@
+{
+  "spender": "0x34D956dCBd16539A4b533BAe2eeB42624bC48129",
+  "first_upgrade_block": 91146496,
+  "scan_to_block": 91482267,
+  "approval_count_for_spender": 1,
+  "owner_count_considered": 1,
+  "token_count_considered": 1,
+  "tokens_considered": [
+    "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+  ],
+  "post_upgrade_transfer_from_approved_owner_count": 4,
+  "unique_transfer_txs": 4,
+  "unique_transfer_owners": 1,
+  "top_transfer_tokens": [
+    [
+      "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      4
+    ]
+  ],
+  "top_transfer_owners": [
+    [
+      "0xDC7d75FBd4168e2056Bd06A7a7D163dC3808ccd8",
+      4
+    ]
+  ],
+  "direct_top_level_calls_to_spender_count": 0,
+  "direct_top_level_calls_to_spender": [],
+  "sample_transfers": [
+    {
+      "block_number": 91146496,
+      "tx_hash": "0xef477104e4d527e3df8a3f3d97e50bb9d28639455e879e715a9f63efb90d36d1",
+      "log_index": 872,
+      "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "from": "0xDC7d75FBd4168e2056Bd06A7a7D163dC3808ccd8",
+      "to": "0xf7Cf55fc863A0e9650320646399CDeDAAbd82049",
+      "value": 232096
+    },
+    {
+      "block_number": 91146500,
+      "tx_hash": "0x2b93347895242dcd1a0d900e8a72f360034743d7d876ef79be8d9334c038ec12",
+      "log_index": 255,
+      "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "from": "0xDC7d75FBd4168e2056Bd06A7a7D163dC3808ccd8",
+      "to": "0x34D956dCBd16539A4b533BAe2eeB42624bC48129",
+      "value": 4000000
+    },
+    {
+      "block_number": 91152922,
+      "tx_hash": "0x8bef58ef6cbe4a47229189a816c6de585c7b2337f91f68673a3aa9c4658c7e5d",
+      "log_index": 1009,
+      "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "from": "0xDC7d75FBd4168e2056Bd06A7a7D163dC3808ccd8",
+      "to": "0x4b19129EA58431A06D01054f69AcAe5de50633b6",
+      "value": 69202
+    },
+    {
+      "block_number": 91152923,
+      "tx_hash": "0xdaf52373a6485a005682fc01ce8c4121c3926ebf2d54eaed185cfca6538129e3",
+      "log_index": 1156,
+      "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "from": "0xDC7d75FBd4168e2056Bd06A7a7D163dC3808ccd8",
+      "to": "0x34D956dCBd16539A4b533BAe2eeB42624bC48129",
+      "value": 5000000
+    }
+  ]
+}

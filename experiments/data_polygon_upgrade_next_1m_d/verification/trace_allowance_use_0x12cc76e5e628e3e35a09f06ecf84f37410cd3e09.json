@@ -1,0 +1,97 @@
+﻿{
+  "spender": "0x12Cc76E5e628E3E35A09F06ecf84f37410CD3e09",
+  "trace_source": "debug_traceTransaction.callTracer",
+  "rpc_label": "override",
+  "candidate_tx_count": 18,
+  "traced_tx_count": 17,
+  "failed_tx_count": 1,
+  "transfer_from_match_count": 4,
+  "matched_txs": [
+    {
+      "tx_hash": "0xa0af5e41880d2097f2388c38d3e124b9f88fb6db15fe926092b38cb67aa28025",
+      "match_count": 1,
+      "matches": [
+        {
+          "caller": "0x12Cc76E5e628E3E35A09F06ecf84f37410CD3e09",
+          "token": "0x4c18406Fa690fAa53E5efa899a971557251Af72d",
+          "owner": "0x5335C7715556163b992318C4B7910213DBD80a7b",
+          "recipient": "0x12Cc76E5e628E3E35A09F06ecf84f37410CD3e09",
+          "amount": 30722000000000000000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x3079d",
+          "gas_used": "0x5a86",
+          "error": null
+        }
+      ]
+    },
+    {
+      "tx_hash": "0xbf2593ed0e4cadcb2806f787139ccfc20f358fdf2277b5ac230439477088cd73",
+      "match_count": 1,
+      "matches": [
+        {
+          "caller": "0x12Cc76E5e628E3E35A09F06ecf84f37410CD3e09",
+          "token": "0x4c18406Fa690fAa53E5efa899a971557251Af72d",
+          "owner": "0x5335C7715556163b992318C4B7910213DBD80a7b",
+          "recipient": "0x12Cc76E5e628E3E35A09F06ecf84f37410CD3e09",
+          "amount": 200000000000000000000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x3079d",
+          "gas_used": "0x5a86",
+          "error": null
+        }
+      ]
+    },
+    {
+      "tx_hash": "0xdf577c67be61941bed91566af7153b42720bb778b638dee8f172eabd70f8825a",
+      "match_count": 1,
+      "matches": [
+        {
+          "caller": "0x12Cc76E5e628E3E35A09F06ecf84f37410CD3e09",
+          "token": "0x4c18406Fa690fAa53E5efa899a971557251Af72d",
+          "owner": "0x0B9215C81cd2E793DEf16598d246bA4D50AAFD07",
+          "recipient": "0x12Cc76E5e628E3E35A09F06ecf84f37410CD3e09",
+          "amount": 25000000000000000000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x3181d",
+          "gas_used": "0x5a86",
+          "error": null
+        }
+      ]
+    },
+    {
+      "tx_hash": "0xf656e7915627f48c3606fbce3be3ad20b5f3a30e6d89657c1d251a9f2ae954c7",
+      "match_count": 1,
+      "matches": [
+        {
+          "caller": "0x12Cc76E5e628E3E35A09F06ecf84f37410CD3e09",
+          "token": "0x4c18406Fa690fAa53E5efa899a971557251Af72d",
+          "owner": "0x5335C7715556163b992318C4B7910213DBD80a7b",
+          "recipient": "0x12Cc76E5e628E3E35A09F06ecf84f37410CD3e09",
+          "amount": 25539000000000000000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x3181e",
+          "gas_used": "0x5a86",
+          "error": null
+        }
+      ]
+    }
+  ],
+  "failed_txs": [
+    {
+      "tx_hash": "0x25d57bf322465162630f34fa2e10ac7d1877c4c8406e28fc3f945dfe8d51fc46",
+      "error": "{'debug_traceTransaction': \"RPC call failed: debug_traceTransaction: ('Connection aborted.', ConnectionResetError(10054, 'The remote host forcibly closed an existing connection.', None, 10054, None))\", 'trace_transaction': 'RPC call failed: trace_transaction: 406 Client Error: Not Acceptable for url: https://tenderly.rpc.polygon.community/'}",
+      "retryable": false
+    }
+  ],
+  "method_errors": [
+    {
+      "tx_hash": "0x25d57bf322465162630f34fa2e10ac7d1877c4c8406e28fc3f945dfe8d51fc46",
+      "error": "{'debug_traceTransaction': \"RPC call failed: debug_traceTransaction: ('Connection aborted.', ConnectionResetError(10054, 'The remote host forcibly closed an existing connection.', None, 10054, None))\", 'trace_transaction': 'RPC call failed: trace_transaction: 406 Client Error: Not Acceptable for url: https://tenderly.rpc.polygon.community/'}",
+      "retryable": false
+    }
+  ]
+}

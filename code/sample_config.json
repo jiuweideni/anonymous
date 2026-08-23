@@ -1,0 +1,16 @@
+{
+  "rpc_url": "http://localhost:8545",
+  "chain_id": 1,
+  "from_block": 1,
+  "to_block": 10,
+  "chunk_size": 100,
+  "output_dir": "sample_data",
+  "collect_all_upgrades": true,
+  "entrypoints": [],
+  "permit2_addresses": [],
+  "tracked_tokens": [],
+  "risk_thresholds": {
+    "large_approval_amount": "1000000",
+    "paymaster_userop_min_count": 2
+  }
+}

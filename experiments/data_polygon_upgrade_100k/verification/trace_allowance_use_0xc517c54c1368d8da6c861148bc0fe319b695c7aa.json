@@ -1,0 +1,67 @@
+{
+  "spender": "0xC517c54c1368d8dA6c861148bC0fe319B695C7Aa",
+  "trace_source": "debug_traceTransaction.callTracer",
+  "rpc_label": "override",
+  "candidate_tx_count": 3,
+  "traced_tx_count": 3,
+  "failed_tx_count": 0,
+  "transfer_from_match_count": 3,
+  "matched_txs": [
+    {
+      "tx_hash": "0x31707c052db91bb1ce5292921e857133523752ca962c45d05cf24884384fbcad",
+      "match_count": 1,
+      "matches": [
+        {
+          "caller": "0xC517c54c1368d8dA6c861148bC0fe319B695C7Aa",
+          "token": "0x386C4247d0e85e622C8Ac420cdCfa6F5482Fb4Ad",
+          "owner": "0x0155698Cc16D513Ff10a836992Eff25360241815",
+          "recipient": "0xC517c54c1368d8dA6c861148bC0fe319B695C7Aa",
+          "amount": 235200,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x415ba",
+          "gas_used": "0x7112",
+          "error": null
+        }
+      ]
+    },
+    {
+      "tx_hash": "0x937162d439696885df409faa48eade33d560a7674d018d5f7afb64c99ffbd9dc",
+      "match_count": 1,
+      "matches": [
+        {
+          "caller": "0xC517c54c1368d8dA6c861148bC0fe319B695C7Aa",
+          "token": "0x386C4247d0e85e622C8Ac420cdCfa6F5482Fb4Ad",
+          "owner": "0x0155698Cc16D513Ff10a836992Eff25360241815",
+          "recipient": "0xC517c54c1368d8dA6c861148bC0fe319B695C7Aa",
+          "amount": 274400,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x3cd53",
+          "gas_used": "0x7112",
+          "error": null
+        }
+      ]
+    },
+    {
+      "tx_hash": "0x964415cf181dd8e2fa0d75b67f7686c12ca203689d3863719c13e6c410058dde",
+      "match_count": 1,
+      "matches": [
+        {
+          "caller": "0xC517c54c1368d8dA6c861148bC0fe319B695C7Aa",
+          "token": "0x386C4247d0e85e622C8Ac420cdCfa6F5482Fb4Ad",
+          "owner": "0x0155698Cc16D513Ff10a836992Eff25360241815",
+          "recipient": "0xC517c54c1368d8dA6c861148bC0fe319B695C7Aa",
+          "amount": 441000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x3cd53",
+          "gas_used": "0x7112",
+          "error": null
+        }
+      ]
+    }
+  ],
+  "failed_txs": [],
+  "method_errors": []
+}

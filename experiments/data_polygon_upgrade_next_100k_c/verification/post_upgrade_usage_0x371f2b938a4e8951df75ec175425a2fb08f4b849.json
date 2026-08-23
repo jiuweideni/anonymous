@@ -1,0 +1,57 @@
+{
+  "spender": "0x371F2B938a4E8951DF75EC175425A2fB08f4B849",
+  "first_upgrade_block": 91061816,
+  "scan_to_block": 91112373,
+  "approval_count_for_spender": 6,
+  "owner_count_considered": 2,
+  "token_count_considered": 1,
+  "tokens_considered": [
+    "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+  ],
+  "post_upgrade_transfer_from_approved_owner_count": 3,
+  "unique_transfer_txs": 2,
+  "unique_transfer_owners": 1,
+  "top_transfer_tokens": [
+    [
+      "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      3
+    ]
+  ],
+  "top_transfer_owners": [
+    [
+      "0xD1456aFFee8d4538090265789B40D3219B3b8806",
+      3
+    ]
+  ],
+  "direct_top_level_calls_to_spender_count": 0,
+  "direct_top_level_calls_to_spender": [],
+  "sample_transfers": [
+    {
+      "block_number": 91067193,
+      "tx_hash": "0x5b322f7fbc974eb187af20db2988536dd2a697e841891e5d90d16748ad53aa5b",
+      "log_index": 877,
+      "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "from": "0xD1456aFFee8d4538090265789B40D3219B3b8806",
+      "to": "0xe3478b0BB1A5084567C319096437924948Be1964",
+      "value": 11016
+    },
+    {
+      "block_number": 91067204,
+      "tx_hash": "0x70e1a90ed4354d3217b92997833d7a76b19e979bb5f32129e9520b6c44e1d574",
+      "log_index": 344,
+      "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "from": "0xD1456aFFee8d4538090265789B40D3219B3b8806",
+      "to": "0x371F2B938a4E8951DF75EC175425A2fB08f4B849",
+      "value": 16000000
+    },
+    {
+      "block_number": 91067204,
+      "tx_hash": "0x70e1a90ed4354d3217b92997833d7a76b19e979bb5f32129e9520b6c44e1d574",
+      "log_index": 347,
+      "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "from": "0xD1456aFFee8d4538090265789B40D3219B3b8806",
+      "to": "0xe3478b0BB1A5084567C319096437924948Be1964",
+      "value": 35180
+    }
+  ]
+}

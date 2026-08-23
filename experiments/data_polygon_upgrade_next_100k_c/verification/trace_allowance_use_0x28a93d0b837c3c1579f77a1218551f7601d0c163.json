@@ -1,0 +1,31 @@
+{
+  "spender": "0x28a93D0b837C3C1579F77a1218551f7601d0c163",
+  "trace_source": "debug_traceTransaction.callTracer",
+  "rpc_label": "config",
+  "candidate_tx_count": 2,
+  "traced_tx_count": 2,
+  "failed_tx_count": 0,
+  "transfer_from_match_count": 1,
+  "matched_txs": [
+    {
+      "tx_hash": "0x8930b759cadadb51cf8930a747d83188dfa225c19c37202438fb89bc8ff86bc2",
+      "match_count": 1,
+      "matches": [
+        {
+          "caller": "0x28a93D0b837C3C1579F77a1218551f7601d0c163",
+          "token": "0x93DEE3C2B8EB81E0500b1CdC2C6d6D71fd548e3E",
+          "owner": "0x6137d3e622920543Cf36923496Cb9738E959D3dC",
+          "recipient": "0x28a93D0b837C3C1579F77a1218551f7601d0c163",
+          "amount": 100000000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x67ce8",
+          "gas_used": "0x83c8",
+          "error": null
+        }
+      ]
+    }
+  ],
+  "failed_txs": [],
+  "method_errors": []
+}

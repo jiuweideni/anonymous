@@ -1,0 +1,93 @@
+{
+  "spender": "0x8b3db2AC7e30749479f2dbad14105C8eD4a377d4",
+  "first_upgrade_block": 91451284,
+  "scan_to_block": 91482267,
+  "approval_count_for_spender": 4,
+  "owner_count_considered": 1,
+  "token_count_considered": 1,
+  "tokens_considered": [
+    "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+  ],
+  "post_upgrade_transfer_from_approved_owner_count": 7,
+  "unique_transfer_txs": 2,
+  "unique_transfer_owners": 1,
+  "top_transfer_tokens": [
+    [
+      "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      7
+    ]
+  ],
+  "top_transfer_owners": [
+    [
+      "0x0E9De0F24eB4774834A2c4A63eaBa8356A4A4B53",
+      7
+    ]
+  ],
+  "direct_top_level_calls_to_spender_count": 0,
+  "direct_top_level_calls_to_spender": [],
+  "sample_transfers": [
+    {
+      "block_number": 91453111,
+      "tx_hash": "0x1d5e66094b4c2342475f39b9c6854597766fb78afaadc55d3a4142abd3e40b36",
+      "log_index": 1362,
+      "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "from": "0x0E9De0F24eB4774834A2c4A63eaBa8356A4A4B53",
+      "to": "0xa5f6C21B675b874Be8a313eDB3974eC343852A44",
+      "value": 9000000
+    },
+    {
+      "block_number": 91453111,
+      "tx_hash": "0x1d5e66094b4c2342475f39b9c6854597766fb78afaadc55d3a4142abd3e40b36",
+      "log_index": 1367,
+      "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "from": "0x0E9De0F24eB4774834A2c4A63eaBa8356A4A4B53",
+      "to": "0xf8F60Da42681b73DFeCa7731E78b29C8707C184b",
+      "value": 800000
+    },
+    {
+      "block_number": 91453111,
+      "tx_hash": "0x1d5e66094b4c2342475f39b9c6854597766fb78afaadc55d3a4142abd3e40b36",
+      "log_index": 1368,
+      "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "from": "0x0E9De0F24eB4774834A2c4A63eaBa8356A4A4B53",
+      "to": "0x3ee9B4913e175c15B2Ef76Ac352B6737210248Fb",
+      "value": 200000
+    },
+    {
+      "block_number": 91479428,
+      "tx_hash": "0xfd5cf95c3b765a081b55a9a72df3b07b2ad8ac597f00e898a9ab397defbf216e",
+      "log_index": 1204,
+      "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "from": "0x0E9De0F24eB4774834A2c4A63eaBa8356A4A4B53",
+      "to": "0x310D63Bb49bc75b49bEE4a57802A2cA98e676158",
+      "value": 7000000
+    },
+    {
+      "block_number": 91479428,
+      "tx_hash": "0xfd5cf95c3b765a081b55a9a72df3b07b2ad8ac597f00e898a9ab397defbf216e",
+      "log_index": 1208,
+      "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "from": "0x0E9De0F24eB4774834A2c4A63eaBa8356A4A4B53",
+      "to": "0x8b3db2AC7e30749479f2dbad14105C8eD4a377d4",
+      "value": 2000000
+    },
+    {
+      "block_number": 91479428,
+      "tx_hash": "0xfd5cf95c3b765a081b55a9a72df3b07b2ad8ac597f00e898a9ab397defbf216e",
+      "log_index": 1212,
+      "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "from": "0x0E9De0F24eB4774834A2c4A63eaBa8356A4A4B53",
+      "to": "0xf8F60Da42681b73DFeCa7731E78b29C8707C184b",
+      "value": 800000
+    },
+    {
+      "block_number": 91479428,
+      "tx_hash": "0xfd5cf95c3b765a081b55a9a72df3b07b2ad8ac597f00e898a9ab397defbf216e",
+      "log_index": 1213,
+      "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "from": "0x0E9De0F24eB4774834A2c4A63eaBa8356A4A4B53",
+      "to": "0x3ee9B4913e175c15B2Ef76Ac352B6737210248Fb",
+      "value": 200000
+    }
+  ]
+}

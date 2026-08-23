@@ -1,0 +1,24 @@
+﻿{
+  "spender": "0x8b3db2AC7e30749479f2dbad14105C8eD4a377d4",
+  "trace_source": "debug_traceTransaction.callTracer",
+  "rpc_label": "override",
+  "candidate_tx_count": 2,
+  "traced_tx_count": 1,
+  "failed_tx_count": 1,
+  "transfer_from_match_count": 0,
+  "matched_txs": [],
+  "failed_txs": [
+    {
+      "tx_hash": "0xfd5cf95c3b765a081b55a9a72df3b07b2ad8ac597f00e898a9ab397defbf216e",
+      "error": "{'debug_traceTransaction': \"RPC call failed: debug_traceTransaction: ('Connection aborted.', ConnectionResetError(10054, 'The remote host forcibly closed an existing connection.', None, 10054, None))\", 'trace_transaction': 'RPC call failed: trace_transaction: 406 Client Error: Not Acceptable for url: https://tenderly.rpc.polygon.community/'}",
+      "retryable": false
+    }
+  ],
+  "method_errors": [
+    {
+      "tx_hash": "0xfd5cf95c3b765a081b55a9a72df3b07b2ad8ac597f00e898a9ab397defbf216e",
+      "error": "{'debug_traceTransaction': \"RPC call failed: debug_traceTransaction: ('Connection aborted.', ConnectionResetError(10054, 'The remote host forcibly closed an existing connection.', None, 10054, None))\", 'trace_transaction': 'RPC call failed: trace_transaction: 406 Client Error: Not Acceptable for url: https://tenderly.rpc.polygon.community/'}",
+      "retryable": false
+    }
+  ]
+}

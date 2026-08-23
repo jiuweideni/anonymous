@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "from_block": 90787373,
+  "to_block": 90887373,
+  "next_block": 90887374,
+  "last_completed_range": [
+    90887373,
+    90887373
+  ],
+  "completed_ranges": 101
+}

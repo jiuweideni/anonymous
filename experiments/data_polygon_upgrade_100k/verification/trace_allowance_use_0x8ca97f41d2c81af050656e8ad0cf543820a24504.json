@@ -1,0 +1,12 @@
+{
+  "spender": "0x8cA97F41d2C81AF050656e8AD0Cf543820a24504",
+  "trace_source": "debug_traceTransaction.callTracer",
+  "rpc_label": "override",
+  "candidate_tx_count": 136,
+  "traced_tx_count": 136,
+  "failed_tx_count": 0,
+  "transfer_from_match_count": 0,
+  "matched_txs": [],
+  "failed_txs": [],
+  "method_errors": []
+}

@@ -1,0 +1,75 @@
+{
+  "spender": "0xfB411Cc6385Af50A562aFCb441864E9d541CDA67",
+  "first_upgrade_block": 91052418,
+  "scan_to_block": 91112373,
+  "approval_count_for_spender": 42,
+  "owner_count_considered": 23,
+  "token_count_considered": 2,
+  "tokens_considered": [
+    "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+    "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+  ],
+  "post_upgrade_transfer_from_approved_owner_count": 4,
+  "unique_transfer_txs": 4,
+  "unique_transfer_owners": 2,
+  "top_transfer_tokens": [
+    [
+      "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      3
+    ],
+    [
+      "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+      1
+    ]
+  ],
+  "top_transfer_owners": [
+    [
+      "0x6F2c1113da1853835ECdA4FB6b750BeD4193e01B",
+      2
+    ],
+    [
+      "0xC867e2Dcda282049265CD4A57eB8f59f94174D17",
+      2
+    ]
+  ],
+  "direct_top_level_calls_to_spender_count": 0,
+  "direct_top_level_calls_to_spender": [],
+  "sample_transfers": [
+    {
+      "block_number": 91068735,
+      "tx_hash": "0x85db5562a12c35cd729b039375dfa27c3fc737a2b9f8963cea3c4460d7cd8750",
+      "log_index": 1266,
+      "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "from": "0x6F2c1113da1853835ECdA4FB6b750BeD4193e01B",
+      "to": "0x99aa8992aA84543014c04d38875c83723b88b718",
+      "value": 299504950
+    },
+    {
+      "block_number": 91075290,
+      "tx_hash": "0x017ee732a4ceb120908ebb10b3cf127d907a80f7c87a48e8935d1cefa06d2ddf",
+      "log_index": 1025,
+      "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "from": "0xC867e2Dcda282049265CD4A57eB8f59f94174D17",
+      "to": "0xfB411Cc6385Af50A562aFCb441864E9d541CDA67",
+      "value": 1030000
+    },
+    {
+      "block_number": 91090490,
+      "tx_hash": "0x1ee392b0debc9d6c0f934fee313a9fd1f8372c298dc38f65fd3c1a14ad90b7ef",
+      "log_index": 1725,
+      "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+      "from": "0xC867e2Dcda282049265CD4A57eB8f59f94174D17",
+      "to": "0xfB411Cc6385Af50A562aFCb441864E9d541CDA67",
+      "value": 1460000
+    },
+    {
+      "block_number": 91070612,
+      "tx_hash": "0x763ec8b85a24b975fc3aba3fc89fc02c6d3759414d633efbdbb5dcc0f60fd865",
+      "log_index": 923,
+      "token": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+      "from": "0x6F2c1113da1853835ECdA4FB6b750BeD4193e01B",
+      "to": "0x5DC171cD5e001CD99cD84c1B0422063F79CA216f",
+      "value": 54725000
+    }
+  ]
+}

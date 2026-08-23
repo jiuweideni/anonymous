@@ -1,0 +1,59 @@
+{
+  "config": {
+    "chain_id": 137,
+    "from_block": 90887374,
+    "to_block": 90912373,
+    "output_dir": "data_polygon_upgrade_next_25k"
+  },
+  "backscan_state": {
+    "status": "complete",
+    "proxy_index": 155
+  },
+  "spender_count": 1,
+  "approval_count": 126,
+  "trace_positive_spender_count": 1,
+  "global_transfer_from_match_count": 1,
+  "global_matched_tx_count": 1,
+  "token_metadata": {
+    "0x3C17Ff7D305b81a2d35A1914dab72780d6bF3739": {
+      "address": "0x3C17Ff7D305b81a2d35A1914dab72780d6bF3739",
+      "symbol": "LPX",
+      "decimals": 18
+    }
+  },
+  "raw_global_amount_by_token": {
+    "0x3C17Ff7D305b81a2d35A1914dab72780d6bF3739": 83144000000000000000000
+  },
+  "spenders": [
+    {
+      "spender": "0xB3A73B7b393D34603bCEFeF4025B9fF60ECC9F5e",
+      "approval_count": 126,
+      "unique_approval_owners": 57,
+      "unique_approval_tokens": 3,
+      "first_upgrade_block": 90899645,
+      "post_upgrade_transfer_events": 3,
+      "post_upgrade_unique_transfer_txs": 3,
+      "direct_top_level_calls_to_spender": 1,
+      "traced_tx_count": 3,
+      "failed_tx_count": 0,
+      "transfer_from_match_count": 1,
+      "matched_tx_count": 1,
+      "matched_owner_count": 1,
+      "matched_recipient_count": 1,
+      "raw_amount_by_token": {
+        "0x3C17Ff7D305b81a2d35A1914dab72780d6bF3739": 83144000000000000000000
+      },
+      "implementation_changed_at_upgrade": true,
+      "latest_matches_upgrade": true,
+      "previous_implementation": "0xD696723eEdc82b5bDa8042e1ea1DC1D3a8d584E7",
+      "implementation_at_upgrade_block": "0x440b6295080e74fC72D394512a75cC522Cc8d5a1",
+      "latest_implementation": "0x440b6295080e74fC72D394512a75cC522Cc8d5a1",
+      "previous_implementation_code_hash": "0x61ecd656b19a4c817f3e451596018e9bb825950345b3e5cadf2488c6be0d551c",
+      "implementation_at_upgrade_code_hash": "0xcf0541ebc1a2aed98cffddbc13e71aadea3883fcfcf84e8ce0d4783093464efa",
+      "latest_implementation_code_hash": "0xcf0541ebc1a2aed98cffddbc13e71aadea3883fcfcf84e8ce0d4783093464efa",
+      "normalized_amount_by_token": {
+        "0x3C17Ff7D305b81a2d35A1914dab72780d6bF3739": "83144.0"
+      }
+    }
+  ]
+}

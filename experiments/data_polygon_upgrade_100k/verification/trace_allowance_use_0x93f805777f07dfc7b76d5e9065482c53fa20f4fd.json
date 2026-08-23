@@ -1,0 +1,169 @@
+{
+  "spender": "0x93F805777f07dfC7b76d5e9065482C53fa20f4fd",
+  "trace_source": "debug_traceTransaction.callTracer",
+  "rpc_label": "override",
+  "candidate_tx_count": 4,
+  "traced_tx_count": 4,
+  "failed_tx_count": 0,
+  "transfer_from_match_count": 12,
+  "matched_txs": [
+    {
+      "tx_hash": "0x8f53df21c917e07546d6df917b8a368a7331a9ee6c464f29afab1cedd5b4d9c1",
+      "match_count": 6,
+      "matches": [
+        {
+          "caller": "0x93F805777f07dfC7b76d5e9065482C53fa20f4fd",
+          "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+          "owner": "0xf4C99BA808a39a996305eA8186a86E7Dec0bE9B3",
+          "recipient": "0x0e34dd96B4D0C7fa92551acd06cc67d5A1e5DaA5",
+          "amount": 6960000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x46023",
+          "gas_used": "0x9db2",
+          "error": null
+        },
+        {
+          "caller": "0x93F805777f07dfC7b76d5e9065482C53fa20f4fd",
+          "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+          "owner": "0xf4C99BA808a39a996305eA8186a86E7Dec0bE9B3",
+          "recipient": "0x41dFEf0c3AF1D932EE024Be33d7c699C99381848",
+          "amount": 3480000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x3b987",
+          "gas_used": "0x3aa2",
+          "error": null
+        },
+        {
+          "caller": "0x93F805777f07dfC7b76d5e9065482C53fa20f4fd",
+          "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+          "owner": "0xf4C99BA808a39a996305eA8186a86E7Dec0bE9B3",
+          "recipient": "0xbD63deF6d8C241D03601F7874670BB849Ab46eb5",
+          "amount": 1160000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x37472",
+          "gas_used": "0x3aa2",
+          "error": null
+        },
+        {
+          "caller": "0x93F805777f07dfC7b76d5e9065482C53fa20f4fd",
+          "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+          "owner": "0xf4C99BA808a39a996305eA8186a86E7Dec0bE9B3",
+          "recipient": "0x8C87B77eE73C11696c4B9EE50Ee0A87e48bbD263",
+          "amount": 81200000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x31b91",
+          "gas_used": "0x3aa2",
+          "error": null
+        },
+        {
+          "caller": "0x93F805777f07dfC7b76d5e9065482C53fa20f4fd",
+          "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+          "owner": "0xf4C99BA808a39a996305eA8186a86E7Dec0bE9B3",
+          "recipient": "0xB826F4B179a701b818f5b37eF3e12Cc4Bce1a39b",
+          "amount": 17400000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x2cb9b",
+          "gas_used": "0x3aa2",
+          "error": null
+        },
+        {
+          "caller": "0x93F805777f07dfC7b76d5e9065482C53fa20f4fd",
+          "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+          "owner": "0xf4C99BA808a39a996305eA8186a86E7Dec0bE9B3",
+          "recipient": "0xcdA64C1550B7a183CC05c6c0F5A2F3977B870CFA",
+          "amount": 5800000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x27ba2",
+          "gas_used": "0x3aa2",
+          "error": null
+        }
+      ]
+    },
+    {
+      "tx_hash": "0x981258fb966d1b435a5ef67ceb21572e424b57780d85f9eebdab5a9004a3b22c",
+      "match_count": 6,
+      "matches": [
+        {
+          "caller": "0x93F805777f07dfC7b76d5e9065482C53fa20f4fd",
+          "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+          "owner": "0xf4C99BA808a39a996305eA8186a86E7Dec0bE9B3",
+          "recipient": "0x0e34dd96B4D0C7fa92551acd06cc67d5A1e5DaA5",
+          "amount": 6960000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x4c79a",
+          "gas_used": "0x9db2",
+          "error": null
+        },
+        {
+          "caller": "0x93F805777f07dfC7b76d5e9065482C53fa20f4fd",
+          "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+          "owner": "0xf4C99BA808a39a996305eA8186a86E7Dec0bE9B3",
+          "recipient": "0x41dFEf0c3AF1D932EE024Be33d7c699C99381848",
+          "amount": 3480000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x420fe",
+          "gas_used": "0x3aa2",
+          "error": null
+        },
+        {
+          "caller": "0x93F805777f07dfC7b76d5e9065482C53fa20f4fd",
+          "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+          "owner": "0xf4C99BA808a39a996305eA8186a86E7Dec0bE9B3",
+          "recipient": "0xbD63deF6d8C241D03601F7874670BB849Ab46eb5",
+          "amount": 1160000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x3dbe9",
+          "gas_used": "0x3aa2",
+          "error": null
+        },
+        {
+          "caller": "0x93F805777f07dfC7b76d5e9065482C53fa20f4fd",
+          "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+          "owner": "0xf4C99BA808a39a996305eA8186a86E7Dec0bE9B3",
+          "recipient": "0x8C87B77eE73C11696c4B9EE50Ee0A87e48bbD263",
+          "amount": 81200000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x38308",
+          "gas_used": "0x3aa2",
+          "error": null
+        },
+        {
+          "caller": "0x93F805777f07dfC7b76d5e9065482C53fa20f4fd",
+          "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+          "owner": "0xf4C99BA808a39a996305eA8186a86E7Dec0bE9B3",
+          "recipient": "0xB826F4B179a701b818f5b37eF3e12Cc4Bce1a39b",
+          "amount": 17400000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x33312",
+          "gas_used": "0x3aa2",
+          "error": null
+        },
+        {
+          "caller": "0x93F805777f07dfC7b76d5e9065482C53fa20f4fd",
+          "token": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+          "owner": "0xf4C99BA808a39a996305eA8186a86E7Dec0bE9B3",
+          "recipient": "0xcdA64C1550B7a183CC05c6c0F5A2F3977B870CFA",
+          "amount": 5800000,
+          "call_type": "CALL",
+          "input_selector": "0x23b872dd",
+          "gas": "0x2e319",
+          "gas_used": "0x3aa2",
+          "error": null
+        }
+      ]
+    }
+  ],
+  "failed_txs": [],
+  "method_errors": []
+}

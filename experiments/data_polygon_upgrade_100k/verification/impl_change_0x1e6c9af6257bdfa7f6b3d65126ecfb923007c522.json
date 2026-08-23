@@ -1,0 +1,24 @@
+{
+  "proxy": "0x1E6C9aF6257Bdfa7F6b3d65126eCfb923007C522",
+  "upgrade_block": 90792184,
+  "previous_implementation": "0xb6963EA2126262F95d1fb514E6F87d1686eeB87C",
+  "implementation_at_upgrade_block": "0xaEC46855De5178442A1b973714b075A828C1a275",
+  "latest_implementation": "0xaEC46855De5178442A1b973714b075A828C1a275",
+  "implementation_changed_at_upgrade": true,
+  "latest_matches_upgrade": true,
+  "previous_implementation_code": {
+    "address": "0xb6963EA2126262F95d1fb514E6F87d1686eeB87C",
+    "code_hex_chars": 49116,
+    "code_hash": "0x0e74a4e292f7364927df4d8ab06136bffc561df3d75079c978548e5a6fe88035"
+  },
+  "implementation_at_upgrade_code": {
+    "address": "0xaEC46855De5178442A1b973714b075A828C1a275",
+    "code_hex_chars": 49024,
+    "code_hash": "0xb63b0bab5a59d0450a6b611a9d257d26a733b9361ffe770691a493165597a574"
+  },
+  "latest_implementation_code": {
+    "address": "0xaEC46855De5178442A1b973714b075A828C1a275",
+    "code_hex_chars": 49024,
+    "code_hash": "0xb63b0bab5a59d0450a6b611a9d257d26a733b9361ffe770691a493165597a574"
+  }
+}

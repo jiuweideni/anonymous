@@ -1,0 +1,11 @@
+{
+  "status": "complete",
+  "from_block": 90887374,
+  "to_block": 90912373,
+  "run_from_block": 90887374,
+  "entrypoint_logs": 39753,
+  "approval_logs": 0,
+  "permit2_approval_logs": 0,
+  "upgrade_logs": 155,
+  "completed_ranges": 50
+}
